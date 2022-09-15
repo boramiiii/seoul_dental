@@ -8,7 +8,16 @@ body {
     position: relative;
     height: 540px;
     width: 100%;
-    background: url(../../../img/sub/01/visual_img.png) no-repeat center/cover;
+    // background-image: url(../../../img/sub/01/visual_img.png);
+    .bgimg{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 
     .headTxt{
         position: absolute;
