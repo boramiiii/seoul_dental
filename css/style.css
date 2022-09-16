@@ -1972,10 +1972,8 @@ section#subject .titleWrap {
   width: 100%;
   padding-right: 160px;
   position: relative;
-  transform: translateY(100px);
   transition: 0.5s;
   transition-delay: 0;
-  opacity: 0;
 }
 section#subject .titleWrap h3 {
   font: 700 60px/1 "suit";
@@ -1993,10 +1991,8 @@ section#subject > .visualWrap {
   width: 100%;
   height: auto;
   position: relative;
-  transform: translateY(300px);
   transition: 0.5s;
   transition-delay: 0.2s;
-  opacity: 0;
 }
 section#subject > .visualWrap .imgWrap {
   width: calc(100% - 160px);
@@ -2026,10 +2022,8 @@ section#subject > .visualWrap > .articleWrap {
   position: absolute;
   right: 0;
   top: 460px;
-  transform: translateY(200px);
   transition: 0.5s;
   transition-delay: 0.4s;
-  opacity: 0;
 }
 section#subject > .visualWrap > .articleWrap > article {
   width: 480px;
@@ -2143,10 +2137,8 @@ section#profile {
 section#profile .titleWrap {
   width: 100%;
   position: relative;
-  transform: translateY(100px);
   transition: 0.5s;
   transition-delay: 0;
-  opacity: 0;
 }
 section#profile .titleWrap h3 {
   font: 700 60px/1 "suit";
@@ -2171,13 +2163,12 @@ section#profile > .contentWrap > .contents > img {
   width: auto;
   object-fit: cover;
   position: absolute;
-  top: 300px;
+  top: 60px;
   left: 0;
   box-shadow: 15px 4px 39px rgba(0, 0, 0, 0.15);
   z-index: 2;
   transition: 0.5s;
   transition-delay: 0.2s;
-  opacity: 0;
 }
 section#profile > .contentWrap > .contents .txtWrap {
   width: 1060px;
@@ -2187,10 +2178,9 @@ section#profile > .contentWrap > .contents .txtWrap {
   padding-left: 200px;
   position: absolute;
   right: 0;
-  top: 200px;
+  top: 0;
   transition: 0.5s;
   transition-delay: 0.4s;
-  opacity: 0;
 }
 section#profile > .contentWrap > .contents .txtWrap > h4 {
   font: 300 20px/1 "suit";
@@ -2331,10 +2321,8 @@ section#interior {
 section#interior .titleWrap {
   width: 100%;
   position: relative;
-  transform: translateY(100px);
   transition: 0.5s;
   transition-delay: 0;
-  opacity: 0;
 }
 section#interior .titleWrap h3 {
   font: 700 60px/1 "suit";
@@ -2352,10 +2340,8 @@ section#interior .titleWrap p {
 section#interior > .conWrap {
   width: 100%;
   position: relative;
-  transform: translateY(300px);
   transition: 0.5s;
   transition-delay: 0.2s;
-  opacity: 0;
 }
 section#interior > .conWrap .mySwiper2 {
   width: 100%;
@@ -3892,7 +3878,7 @@ ul.quick_menu li.toTop {
     position: relative;
   }
   footer .inner {
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
   }
   footer .inner::after {
