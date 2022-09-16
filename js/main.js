@@ -170,6 +170,8 @@ let posArr = null;
 const base = -400; 
 const btnGoTop = document.querySelector(".toTop");
 
+const btnTop_mo = document.querySelector(".toTop2");
+
 setPos();
 
 //브라우저 스크롤 이벤트 바인딩 
@@ -184,6 +186,12 @@ btnGoTop.addEventListener("click",e=>{
     moveScroll(0);
 })
 
+btnTop_mo.addEventListener("click",e=>{
+    e.preventDefault();
+
+    moveScroll(0);
+})
+
 
 //모바읾메뉴 나오게
 const btnCall = document.querySelector(".btnCall");
@@ -191,13 +199,14 @@ const menuMo = document.querySelector(".menuMo");
 const mo_bg = document.querySelector(".mo_bg");
 const logo = document.querySelector(".logoWrap");
 
-
 btnCall.onclick = (e)=>{
     e.preventDefault(); 
 
     btnCall.classList.add('on'); 
     menuMo.classList.add('on'); 
     mo_bg.classList.add("on");
+    mo_bg.style.zIndex = 4;
+    menuMo.style.zIndex = 12;
     logo.style.visibility = 'hidden';
     logo.style.opacity = 0;
 
@@ -244,7 +253,7 @@ var mapContainer = document.getElementById('map');
 var mapOption = {
     center: new kakao.maps.LatLng(37.612205, 126.928791), // 지도의 중심좌표
     level: 3, // 지도의 확대 레벨
-    draggable:false
+    // draggable:false
 };
 var map = new kakao.maps.Map(mapContainer, mapOption);
 var mapTypeControl = new kakao.maps.MapTypeControl();

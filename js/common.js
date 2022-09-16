@@ -78,7 +78,8 @@ const mo_bg = document.querySelector(".mo_bg");
 
 btnCall.onclick = (e)=>{
     e.preventDefault(); 
-
+    mo_bg.style.zIndex = 4;
+    menuMo.style.zIndex = 12;
     btnCall.classList.add('on'); 
     menuMo.classList.add('on'); 
     mo_bg.classList.add("on");
@@ -135,6 +136,14 @@ document.addEventListener('scroll', () => {
         quick_menu_m.classList.remove("on");
     }
 });
+
+const btnTop_mo = document.querySelector(".toTop2");
+
+btnTop_mo.addEventListener("click",e=>{
+    e.preventDefault();
+
+    moveScroll(0);
+})
 
 function setPos(){
     posArr =[]; 

@@ -1552,6 +1552,128 @@ header#header.on .inner > h1 a img.logo_c {
 header#header.on .inner .menuWeb #gnb .depth1 > a {
   color: #000;
 }
+header#header .mo_bg {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+}
+header#header .mo_bg.on {
+  visibility: visible;
+  opacity: 1;
+}
+header#header .menuMo {
+  width: 40vw;
+  height: 100vh;
+  background: #bf9b81;
+  padding: 35px 30px;
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  z-index: 10;
+  transition: 0.5s;
+  border-radius: 0 50px 50px 0;
+}
+header#header .menuMo.on {
+  left: 0;
+  z-index: 10 !important;
+}
+header#header .menuMo > h1 {
+  width: auto;
+  position: absolute;
+  right: 0;
+}
+header#header .menuMo > h1 img {
+  width: 40%;
+  object-fit: cover;
+  cursor: pointer;
+}
+header#header .menuMo ul#gnbMo {
+  position: relative;
+  top: 100px;
+}
+header#header .menuMo ul#gnbMo > li {
+  width: 100%;
+  padding: 30px 0;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap {
+  width: 100%;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(15px, -20px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap > div {
+  float: left;
+  font: 500 23px/1 "suit";
+  color: #fff;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap {
+  width: 12px;
+  height: 20px;
+  float: left;
+  position: relative;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.close {
+  opacity: 1;
+  visibility: visible;
+}
+header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.open {
+  opacity: 0;
+  visibility: hidden;
+}
+header#header .menuMo ul#gnbMo > li > ul.dropdown {
+  width: 100%;
+  margin-top: 10px;
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
+}
+header#header .menuMo ul#gnbMo > li > ul.dropdown > li {
+  width: 100%;
+  padding: 15px 0;
+}
+header#header .menuMo ul#gnbMo > li > ul.dropdown > li a {
+  width: 100%;
+  color: #fff;
+  font: 100 17px/1 "suit";
+}
+header#header .menuMo ul#gnbMo > li > ul.dropdown > li.on a {
+  font-weight: 500;
+}
+header#header .menuMo ul#gnbMo > li.on .depth1Wrap::after {
+  opacity: 1;
+  visibility: visible;
+}
+header#header .menuMo ul#gnbMo > li.on > ul.dropdown.on {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+}
 header#header .inner {
   width: 1600px;
   margin: 0 auto;
@@ -1740,127 +1862,6 @@ header#header .inner .btnCall span {
 }
 header#header .inner .btnCall.on {
   opacity: 0.4;
-}
-header#header .inner .menuMo {
-  width: 40vw;
-  height: 100vh;
-  background: #bf9b81;
-  padding: 35px 30px;
-  position: fixed;
-  top: 0;
-  left: -100vw;
-  z-index: 10;
-  transition: 0.5s;
-  border-radius: 0 50px 50px 0;
-}
-header#header .inner .menuMo.on {
-  left: 0;
-}
-header#header .inner .menuMo > h1 {
-  width: auto;
-  position: absolute;
-  right: 0;
-}
-header#header .inner .menuMo > h1 img {
-  width: 40%;
-  object-fit: cover;
-  cursor: pointer;
-}
-header#header .inner .menuMo ul#gnbMo {
-  position: relative;
-  top: 100px;
-}
-header#header .inner .menuMo ul#gnbMo > li {
-  width: 100%;
-  padding: 30px 0;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap {
-  width: 100%;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap::after {
-  content: "";
-  display: block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #fff;
-  transform: translate(15px, -20px);
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap a {
-  float: left;
-  font: 500 23px/1 "suit";
-  color: #fff;
-  margin-right: 20px;
-  position: relative;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap {
-  width: 12px;
-  height: 20px;
-  float: left;
-  position: relative;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img {
-  position: absolute;
-  width: 100%;
-  object-fit: cover;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: 0.3s;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.close {
-  opacity: 1;
-  visibility: visible;
-}
-header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.open {
-  opacity: 0;
-  visibility: hidden;
-}
-header#header .inner .menuMo ul#gnbMo > li > ul.dropdown {
-  width: 100%;
-  margin-top: 10px;
-  height: 0px;
-  opacity: 0;
-  visibility: hidden;
-}
-header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li {
-  width: 100%;
-  padding: 15px 0;
-}
-header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li a {
-  width: 100%;
-  color: #fff;
-  font: 100 17px/1 "suit";
-}
-header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li.on a {
-  font-weight: 500;
-}
-header#header .inner .menuMo ul#gnbMo > li.on .depth1Wrap::after {
-  opacity: 1;
-  visibility: visible;
-}
-header#header .inner .menuMo ul#gnbMo > li.on > ul.dropdown.on {
-  height: auto;
-  visibility: visible;
-  opacity: 1;
-}
-header#header .mo_bg {
-  visibility: hidden;
-  opacity: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.7);
-  transition: 0.3s;
-  position: absolute;
-  top: 0;
-}
-header#header .mo_bg.on {
-  visibility: visible;
-  opacity: 1;
-  z-index: 3;
 }
 header#header .bgSub {
   width: 100%;
@@ -2728,6 +2729,102 @@ ul.quick_menu li.toTop {
   header#header {
     width: 100%;
   }
+  header#header .menuMo {
+    width: 40vw;
+  }
+  header#header .menuMo > h1 {
+    width: auto;
+    right: 0;
+  }
+  header#header .menuMo ul#gnbMo {
+    position: relative;
+    top: 100px;
+  }
+  header#header .menuMo ul#gnbMo > li {
+    width: 100%;
+    padding: 30px 0;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap {
+    width: 100%;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(15px, -20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap a {
+    float: left;
+    font: 500 23px/1 "suit";
+    color: #fff;
+    margin-right: 20px;
+    position: relative;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap {
+    width: 12px;
+    height: 20px;
+    float: left;
+    position: relative;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.close {
+    opacity: 1;
+    visibility: visible;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.open {
+    opacity: 0;
+    visibility: hidden;
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown {
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown > li {
+    width: 100%;
+    padding: 15px 0;
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown > li a {
+    width: 100%;
+    color: #fff;
+    font: 100 17px/1 "suit";
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown > li.on a {
+    font-weight: 500;
+  }
+  header#header .menuMo ul#gnbMo > li.on .depth1Wrap::after {
+    opacity: 1;
+    visibility: visible;
+  }
+  header#header .menuMo ul#gnbMo > li.on .depth1Wrap .imgWrap > img.close {
+    opacity: 0;
+    visibility: hidden;
+  }
+  header#header .menuMo ul#gnbMo > li.on .depth1Wrap .imgWrap > img.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  header#header .menuMo ul#gnbMo > li.on > ul.dropdown.on {
+    margin-top: 30px;
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+  }
   header#header .inner {
     width: 100%;
     padding: 20px 30px;
@@ -2753,102 +2850,6 @@ ul.quick_menu li.toTop {
   header#header .inner .menuWeb {
     display: none;
     opacity: 0;
-  }
-  header#header .inner .menuMo {
-    width: 40vw;
-  }
-  header#header .inner .menuMo > h1 {
-    width: auto;
-    right: 0;
-  }
-  header#header .inner .menuMo ul#gnbMo {
-    position: relative;
-    top: 100px;
-  }
-  header#header .inner .menuMo ul#gnbMo > li {
-    width: 100%;
-    padding: 30px 0;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap {
-    width: 100%;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap::after {
-    content: "";
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #fff;
-    transform: translate(15px, -20px);
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap a {
-    float: left;
-    font: 500 23px/1 "suit";
-    color: #fff;
-    margin-right: 20px;
-    position: relative;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap {
-    width: 12px;
-    height: 20px;
-    float: left;
-    position: relative;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img {
-    position: absolute;
-    width: 100%;
-    object-fit: cover;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: 0.3s;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.close {
-    opacity: 1;
-    visibility: visible;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap .imgWrap > img.open {
-    opacity: 0;
-    visibility: hidden;
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown {
-    width: 100%;
-    height: 0px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s;
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li {
-    width: 100%;
-    padding: 15px 0;
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li a {
-    width: 100%;
-    color: #fff;
-    font: 100 17px/1 "suit";
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li.on a {
-    font-weight: 500;
-  }
-  header#header .inner .menuMo ul#gnbMo > li.on .depth1Wrap::after {
-    opacity: 1;
-    visibility: visible;
-  }
-  header#header .inner .menuMo ul#gnbMo > li.on .depth1Wrap .imgWrap > img.close {
-    opacity: 0;
-    visibility: hidden;
-  }
-  header#header .inner .menuMo ul#gnbMo > li.on .depth1Wrap .imgWrap > img.open {
-    opacity: 1;
-    visibility: visible;
-  }
-  header#header .inner .menuMo ul#gnbMo > li.on > ul.dropdown.on {
-    margin-top: 30px;
-    height: auto;
-    visibility: visible;
-    opacity: 1;
   }
   section#main {
     height: 100vh;
@@ -3117,6 +3118,7 @@ ul.quick_menu li.toTop {
   }
   ul.quick_menu li {
     padding: 22px 15px;
+    cursor: pointer;
   }
   ul.quick_menu li a {
     margin-left: 5px;
@@ -3129,18 +3131,18 @@ ul.quick_menu li.toTop {
   header#header {
     width: 100%;
   }
+  header#header .menuMo {
+    width: 45vw;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap a {
+    font: 500 22px/1 "suit";
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown > li a {
+    font: 100 18px/1 "suit";
+  }
   header#header .inner > h1 {
     width: 30%;
     margin-top: 0px;
-  }
-  header#header .inner .menuMo {
-    width: 45vw;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap a {
-    font: 500 22px/1 "suit";
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li a {
-    font: 100 18px/1 "suit";
   }
   section#main {
     height: 100vh;
@@ -3281,6 +3283,15 @@ ul.quick_menu li.toTop {
   header#header {
     width: 100%;
   }
+  header#header .menuMo {
+    width: 70vw;
+  }
+  header#header .menuMo ul#gnbMo > li .depth1Wrap a {
+    font: 500 22px/1 "suit";
+  }
+  header#header .menuMo ul#gnbMo > li > ul.dropdown > li a {
+    font: 100 18px/1 "suit";
+  }
   header#header .inner > h1 {
     width: 30%;
     top: 20px;
@@ -3289,15 +3300,6 @@ ul.quick_menu li.toTop {
   header#header .inner .btnCall {
     right: 30px;
     top: 26px;
-  }
-  header#header .inner .menuMo {
-    width: 70vw;
-  }
-  header#header .inner .menuMo ul#gnbMo > li .depth1Wrap a {
-    font: 500 22px/1 "suit";
-  }
-  header#header .inner .menuMo ul#gnbMo > li > ul.dropdown > li a {
-    font: 100 18px/1 "suit";
   }
   section#main {
     height: 80vh;
@@ -3500,7 +3502,9 @@ ul.quick_menu li.toTop {
   header#header .inner {
     width: 100%;
     height: 70px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: transparent;
     transition: 0.4s;
     border-bottom: 1px solid #fff;
@@ -3538,11 +3542,8 @@ ul.quick_menu li.toTop {
     height: 18px;
   }
   header#header .inner.on {
-    position: fixed;
-    top: 0;
-    left: 0;
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
   }
   header#header .inner.on > h1 > a > img.logo_w {
     opacity: 0;
@@ -3956,6 +3957,7 @@ ul.quick_menu li.toTop {
     font: 600 18px/60px "suit";
     text-align: center;
     transition: 0.3s;
+    cursor: pointer;
   }
   .quick_menu2 li a {
     width: 100%;
@@ -3969,6 +3971,9 @@ ul.quick_menu li.toTop {
   }
   .quick_menu2.on li:nth-of-type(1) {
     background-color: #03cf5d;
+  }
+  .quick_menu2.on li:nth-of-type(2) {
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }
 
