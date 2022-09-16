@@ -115,7 +115,26 @@ mo_depth1.forEach(function(depth1, index){
         dropDowns.classList.add("on");
     })
 })
+//스크롤시 메뉴백그라운드 생기게
+const navbar = document.querySelector('#header .inner');
+const navbarHeight = navbar.getBoundingClientRect().height;
 
+const quick_menu_m = document.querySelector(".quick_menu2");
+
+document.addEventListener('scroll', () => { 
+    // console.log(window.scrollY);
+    // console.log(navbarHeight);
+    
+
+    if(window.scrollY > navbarHeight){
+        navbar.classList.add('on');
+        quick_menu_m.classList.add("on");
+
+    } else {
+        navbar.classList.remove('on');
+        quick_menu_m.classList.remove("on");
+    }
+});
 
 function setPos(){
     posArr =[]; 
