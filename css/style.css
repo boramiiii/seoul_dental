@@ -3892,7 +3892,7 @@ ul.quick_menu li.toTop {
     position: relative;
   }
   footer .inner {
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
   }
   footer .inner::after {
@@ -3924,7 +3924,7 @@ ul.quick_menu li.toTop {
   }
   footer .inner .fTxtWrap ul li {
     float: left;
-    font: 600 13px/1 "suit";
+    font: 600 13px/1.5 "suit";
     color: #fff;
     margin-right: 35px;
   }
