@@ -5,100 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-#visual {
-  position: relative;
-  height: 540px;
-  width: 100%;
-}
-#visual .bgimg {
-  width: 100%;
-  height: 100%;
-}
-#visual .bgimg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-#visual .headTxt {
-  position: absolute;
-  width: 1200px;
-  bottom: 200px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-#visual .headTxt > h2 {
-  font: 600 70px/1 "suit";
-  color: #654228;
-}
-#visual .headTxt > h2 > span {
-  font-size: 40px;
-}
-#visual .lnb {
-  width: 1600px;
-  height: 80px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border-top-left-radius: 50px;
-  background-color: #bf9b81;
-}
-#visual .lnb .inner {
-  width: 1200px;
-  margin-left: 50px;
-  padding: 20px 0;
-}
-#visual .lnb .inner::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#visual .lnb .inner > .title {
-  font: 600 22px/1 "suit";
-  color: #fff;
-  float: left;
-  margin-top: 10px;
-}
-#visual .lnb .inner > .title::before {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: #ffd200;
-  transform: translate(15px, -7px);
-}
-#visual .lnb .inner > .list {
-  float: right;
-}
-#visual .lnb .inner > .list::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#visual .lnb .inner > .list > p {
-  float: left;
-  margin-right: 60px;
-  font: 400 18px/1 "suit";
-  color: #fff;
-  padding: 10px 0;
-}
-#visual .lnb .inner > .list > p a {
-  width: 100%;
-  color: #fff;
-}
-#visual .lnb .inner > .list > p.on {
-  font-weight: 600;
-}
-#visual .lnb .inner > .list > p.on::after {
-  content: "";
-  display: block;
-  width: 160px;
-  height: 5px;
-  border-radius: 5px 5px 0 0;
-  background-color: #ffd200;
-  transform: translate(-3px, 27px);
-}
-
 #contents {
   width: 100%;
   padding-top: 100px;
@@ -236,21 +142,27 @@ body {
 #contents .inner .profile .info > .list .history {
   float: left;
 }
-#contents .inner .profile .info > .list .history h5 {
-  font: 600 26px/1 "suit";
-  color: #c5a58d;
-  margin-bottom: 45px;
-}
-#contents .inner .profile .info > .list .history h5::before {
+#contents .inner .profile .info > .list .history::after {
   content: "";
-  display: inline-block;
+  display: block;
+  clear: both;
+}
+#contents .inner .profile .info > .list .history .bar {
   width: 7px;
   height: 23px;
   background-color: #c5a58d;
   margin-right: 10px;
-  margin-top: 5px;
+  float: left;
+}
+#contents .inner .profile .info > .list .history h5 {
+  font: 600 26px/23px "suit";
+  color: #c5a58d;
+  margin-bottom: 45px;
+  float: left;
 }
 #contents .inner .profile .info > .list .history ul {
+  width: 100%;
+  float: left;
   margin-left: 20px;
 }
 #contents .inner .profile .info > .list .history ul li {
@@ -266,22 +178,28 @@ body {
   float: left;
   margin-left: 70px;
 }
-#contents .inner .profile .info > .list .active h5 {
-  font: 600 26px/1 "suit";
-  color: #c5a58d;
-  margin-bottom: 45px;
-}
-#contents .inner .profile .info > .list .active h5::before {
+#contents .inner .profile .info > .list .active::after {
   content: "";
-  display: inline-block;
+  display: block;
+  clear: both;
+}
+#contents .inner .profile .info > .list .active .bar {
   width: 7px;
   height: 23px;
   background-color: #c5a58d;
   margin-right: 10px;
-  margin-top: 5px;
+  float: left;
+}
+#contents .inner .profile .info > .list .active h5 {
+  font: 600 26px/23px "suit";
+  color: #c5a58d;
+  margin-bottom: 45px;
+  float: left;
 }
 #contents .inner .profile .info > .list .active ul {
+  width: 100%;
   margin-left: 20px;
+  float: left;
 }
 #contents .inner .profile .info > .list .active ul li {
   list-style-type: disc;
@@ -304,73 +222,6 @@ body {
 }
 
 @media all and (max-width: 1200px) {
-  #visual {
-    height: 450px;
-  }
-  #visual .headTxt {
-    width: 100%;
-    padding-left: 50px;
-  }
-  #visual .headTxt > h2 {
-    font: 600 50px/1 "suit";
-  }
-  #visual .headTxt > h2 > span {
-    font-size: 30px;
-  }
-  #visual .lnb {
-    width: 95%;
-  }
-  #visual .lnb .inner {
-    width: 100%;
-    margin-left: 20px;
-    padding: 20px 20px;
-  }
-  #visual .lnb .inner > .title {
-    font: 600 22px/1 "suit";
-    color: #fff;
-    float: left;
-    margin-top: 10px;
-  }
-  #visual .lnb .inner > .title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #ffd200;
-    transform: translate(15px, -7px);
-  }
-  #visual .lnb .inner > .list {
-    float: right;
-  }
-  #visual .lnb .inner > .list::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #visual .lnb .inner > .list > p {
-    float: left;
-    margin-right: 60px;
-    font: 400 18px/1 "suit";
-    color: #fff;
-    padding: 10px 0;
-  }
-  #visual .lnb .inner > .list > p a {
-    width: 100%;
-    color: #fff;
-  }
-  #visual .lnb .inner > .list > p.on {
-    font-weight: 600;
-  }
-  #visual .lnb .inner > .list > p.on::after {
-    content: "";
-    display: block;
-    width: 160px;
-    height: 5px;
-    border-radius: 5px 5px 0 0;
-    background-color: #ffd200;
-    transform: translate(-3px, 27px);
-  }
   #contents {
     width: 100%;
     padding-top: 100px;
@@ -506,18 +357,9 @@ body {
     float: left;
   }
   #contents .inner .profile .info > .list .history h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
-  }
-  #contents .inner .profile .info > .list .history h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .history ul {
     margin-left: 20px;
@@ -536,18 +378,9 @@ body {
     margin-left: 70px;
   }
   #contents .inner .profile .info > .list .active h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
-  }
-  #contents .inner .profile .info > .list .active h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .active ul {
     margin-left: 20px;
@@ -576,73 +409,6 @@ body {
   }
 }
 @media all and (max-width: 1024px) {
-  #visual {
-    height: 450px;
-  }
-  #visual .headTxt {
-    width: 100%;
-    padding-left: 50px;
-  }
-  #visual .headTxt > h2 {
-    font: 600 45px/1 "suit";
-  }
-  #visual .headTxt > h2 > span {
-    font-size: 30px;
-  }
-  #visual .lnb {
-    width: 95%;
-  }
-  #visual .lnb .inner {
-    width: 100%;
-    margin-left: 20px;
-    padding: 20px 10px;
-  }
-  #visual .lnb .inner > .title {
-    font: 600 22px/1 "suit";
-    color: #fff;
-    float: left;
-    margin-top: 10px;
-  }
-  #visual .lnb .inner > .title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #ffd200;
-    transform: translate(15px, -7px);
-  }
-  #visual .lnb .inner > .list {
-    float: right;
-  }
-  #visual .lnb .inner > .list::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #visual .lnb .inner > .list > p {
-    float: left;
-    margin-right: 40px;
-    font: 400 18px/1 "suit";
-    color: #fff;
-    padding: 10px 0;
-  }
-  #visual .lnb .inner > .list > p a {
-    width: 100%;
-    color: #fff;
-  }
-  #visual .lnb .inner > .list > p.on {
-    font-weight: 600;
-  }
-  #visual .lnb .inner > .list > p.on::after {
-    content: "";
-    display: block;
-    width: 160px;
-    height: 5px;
-    border-radius: 5px 5px 0 0;
-    background-color: #ffd200;
-    transform: translate(-3px, 27px);
-  }
   #contents {
     width: 100%;
     padding-top: 100px;
@@ -787,18 +553,9 @@ body {
     float: left;
   }
   #contents .inner .profile .info > .list .history h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
-  }
-  #contents .inner .profile .info > .list .history h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .history ul {
     margin-left: 20px;
@@ -819,18 +576,9 @@ body {
     margin-top: 80px;
   }
   #contents .inner .profile .info > .list .active h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
-  }
-  #contents .inner .profile .info > .list .active h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .active ul {
     margin-left: 20px;
@@ -859,77 +607,6 @@ body {
   }
 }
 @media all and (max-width: 768px) {
-  #visual {
-    height: 450px;
-  }
-  #visual .headTxt {
-    width: 100%;
-    padding-left: 50px;
-  }
-  #visual .headTxt > h2 {
-    font: 600 40px/1 "suit";
-  }
-  #visual .headTxt > h2 > span {
-    font-size: 20px;
-  }
-  #visual .lnb {
-    width: 95%;
-    height: 120px;
-  }
-  #visual .lnb .inner {
-    width: 100%;
-    margin-left: 20px;
-    padding: 20px 10px;
-  }
-  #visual .lnb .inner > .title {
-    width: 100%;
-    font: 600 22px/1 "suit";
-    color: #fff;
-    float: left;
-    margin-top: 10px;
-  }
-  #visual .lnb .inner > .title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #ffd200;
-    transform: translate(15px, -7px);
-  }
-  #visual .lnb .inner > .list {
-    width: 100%;
-    margin-top: 20px;
-    float: right;
-  }
-  #visual .lnb .inner > .list::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #visual .lnb .inner > .list > p {
-    float: left;
-    margin-right: 30px;
-    font: 400 15px/1 "suit";
-    color: #fff;
-    padding: 10px 0;
-  }
-  #visual .lnb .inner > .list > p a {
-    width: 100%;
-    color: #fff;
-  }
-  #visual .lnb .inner > .list > p.on {
-    font-weight: 600;
-  }
-  #visual .lnb .inner > .list > p.on::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-radius: 5px 5px 0 0;
-    background-color: #ffd200;
-    transform: translate(-3px, 14px);
-  }
   #contents {
     width: 100%;
     padding-top: 100px;
@@ -1078,18 +755,9 @@ body {
     float: left;
   }
   #contents .inner .profile .info > .list .history h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
-  }
-  #contents .inner .profile .info > .list .history h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .history ul {
     margin-left: 20px;
@@ -1110,18 +778,9 @@ body {
     margin-top: 40px;
   }
   #contents .inner .profile .info > .list .active h5 {
-    font: 600 26px/1 "suit";
+    font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
-  }
-  #contents .inner .profile .info > .list .active h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
   }
   #contents .inner .profile .info > .list .active ul {
     margin-left: 20px;
@@ -1151,88 +810,6 @@ body {
   }
 }
 @media all and (max-width: 479px) {
-  #visual {
-    height: 400px;
-  }
-  #visual .headTxt {
-    width: 100%;
-    padding-left: 40px;
-    bottom: 160px;
-  }
-  #visual .headTxt > h2 {
-    font: 600 30px/1 "suit";
-    color: #fff;
-  }
-  #visual .headTxt > h2 > span {
-    font-size: 20px;
-  }
-  #visual .lnb {
-    width: 95%;
-    height: 140px;
-  }
-  #visual .lnb .inner {
-    width: 100%;
-    margin-left: 0;
-    padding: 20px 10px 20px 30px;
-  }
-  #visual .lnb .inner > .title {
-    width: 100%;
-    font: 600 20px/1 "suit";
-    color: #fff;
-    float: left;
-    margin-top: 10px;
-  }
-  #visual .lnb .inner > .title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #ffd200;
-    transform: translate(15px, -7px);
-  }
-  #visual .lnb .inner > .list {
-    width: 100%;
-    margin-top: 20px;
-    float: right;
-  }
-  #visual .lnb .inner > .list::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #visual .lnb .inner > .list > p {
-    width: 30%;
-    float: left;
-    margin-right: 3.3%;
-    text-align: center;
-    font: 400 14px/1.5 "suit";
-    color: #fff;
-    padding: 10px 0;
-    padding-right: 5%;
-  }
-  #visual .lnb .inner > .list > p:nth-of-type(1) {
-    padding-right: 10%;
-  }
-  #visual .lnb .inner > .list > p:nth-of-type(3) {
-    padding-right: 8%;
-  }
-  #visual .lnb .inner > .list > p a {
-    width: 100%;
-    color: #fff;
-  }
-  #visual .lnb .inner > .list > p.on {
-    font-weight: 600;
-  }
-  #visual .lnb .inner > .list > p.on::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-radius: 5px 5px 0 0;
-    background-color: #ffd200;
-    transform: translate(-3px, 8px);
-  }
   #contents {
     width: 100%;
     padding-top: 100px;
@@ -1381,25 +958,19 @@ body {
     float: left;
   }
   #contents .inner .profile .info > .list .history h5 {
-    font: 600 22px/1 "suit";
+    font: 600 20px/23px "suit";
     color: #c5a58d;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
-  #contents .inner .profile .info > .list .history h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
+  #contents .inner .profile .info > .list .history h5::target-text {
+    padding-bottom: 5px;
   }
   #contents .inner .profile .info > .list .history ul {
     margin-left: 20px;
   }
   #contents .inner .profile .info > .list .history ul li {
     list-style-type: disc;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font: 400 16px/1 "suit";
     color: #333;
   }
@@ -1413,25 +984,16 @@ body {
     margin-top: 40px;
   }
   #contents .inner .profile .info > .list .active h5 {
-    font: 600 22px/1 "suit";
+    font: 600 20px/23px "suit";
     color: #c5a58d;
-    margin-bottom: 45px;
-  }
-  #contents .inner .profile .info > .list .active h5::before {
-    content: "";
-    display: inline-block;
-    width: 7px;
-    height: 23px;
-    background-color: #c5a58d;
-    margin-right: 10px;
-    margin-top: 5px;
+    margin-bottom: 35px;
   }
   #contents .inner .profile .info > .list .active ul {
     margin-left: 20px;
   }
   #contents .inner .profile .info > .list .active ul li {
     list-style-type: disc;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font: 400 16px/1.5 "suit";
     color: #333;
   }

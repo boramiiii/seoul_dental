@@ -145,6 +145,13 @@ btnTop_mo.addEventListener("click",e=>{
     moveScroll(0);
 })
 
+const btn_lnb_mo = document.querySelector(".lnb_mo .title");
+const lnb_mo_list = document.querySelector(".lnb_mo .list");
+
+btn_lnb_mo.addEventListener("click",(e)=>{
+    lnb_mo_list.classList.toggle("on");
+})
+
 function setPos(){
     posArr =[]; 
     for(const section of sections){
