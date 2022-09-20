@@ -1,0 +1,747 @@
+body {
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+    overflow-x: hidden;
+}
+#visual{
+    .lnb{
+        .inner{
+            >.list{
+                p{
+                    &.on{
+                        &::after{
+                            width: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#contents{
+    position: relative;
+    &.introduce2{
+        overflow: hidden;
+        padding-bottom: 230px;
+        .inner{
+            width: 100%;
+            
+            .titleWrap{
+                width: 1200px;
+                margin: 0 auto;
+                margin-bottom: 80px;
+    
+                >h2{
+                    font: 700 56px/1 'suit';
+                    color: #000;
+                    margin-bottom: 20px;
+                    
+                    &::after{
+                        content: '';
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: #c5a58d;
+                        margin-left: 10px;
+                    }
+    
+                }
+                
+                >p{
+                    font: 400 18px/1 'suit';
+                    color: #999999;
+                }
+            }
+            .slideWrap{
+                width: 100%;
+				height: 660px;
+				overflow: hidden;
+				position: relative;
+                .panel{
+                    width: 14400px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-items: center;
+                    position: absolute;
+                    top: 0;
+                    left: -46%;
+
+                    article{
+                        width: 1200px;
+                        padding: 0 25px;
+                        .inner{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                                object-fit: cover;
+                            }
+                            .txt{
+                                width: 100%;
+                                >h3{
+                                    font: 700 30px/1 'suit';
+                                    color: #000;
+                                    text-align: center;
+                                    padding: 30px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .conWrap{
+                    width: 1200px;
+                    height: 80px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    padding-right: 60px;
+                    >.inner{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        .num{
+                            position: absolute;
+                            left: 0;
+                            top: 10%;
+                            font: 700 16px/1 'suit';
+                            color: #ccc;
+                            >span{
+                                font: 700 24px/1 'suit';
+                                color: #000;
+                            }
+                        }
+                        .btnWrap{
+                            position: absolute;
+                            right: 0;
+                            &::after{
+                                content: '';
+                                display: block;
+                                clear: both;
+                            }
+
+                            >li{
+                                float: left;
+                                margin-left: 10px;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .barWrap{
+                            width: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            height: 5px;
+                            .bg{
+                                width: 100%;
+                                height: 1px;
+                                background-color: #333333;
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                transform: translateY(-50%);
+                            }
+                            .bar{
+                                width: calc(100%/12);
+                                height: 5px;
+                                background-color: #333;
+                                border-radius: 5px;
+                                transition: .3s;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+           
+        }
+    }
+}
+
+
+@media all and (max-width:1200px){
+    #contents{
+        position: relative;
+        &.introduce2{
+            overflow: hidden;
+            padding-bottom: 150px;
+            .inner{
+                width: 100%;
+                
+                .titleWrap{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+        
+                    >h2{
+                        font: 700 56px/1 'suit';
+                        color: #000;
+                        margin-bottom: 20px;
+                        
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+        
+                    }
+                    
+                    >p{
+                        font: 400 18px/1 'suit';
+                        color: #999999;
+                    }
+                }
+                .slideWrap{
+                    width: 100%;
+                    height: 660px;
+                    overflow: hidden;
+                    position: relative;
+                    .panel{
+                        width: 1200%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+    
+                        article{
+                            width: 100%;
+                            padding: 0px;
+                            .inner{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                                .txt{
+                                    width: 100%;
+                                    >h3{
+                                        font: 700 30px/1 'suit';
+                                        color: #000;
+                                        text-align: center;
+                                        padding: 30px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .conWrap{
+                        width: 100%;
+                        height: 80px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding-right: 0;
+                        >.inner{
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            .num{
+                                position: absolute;
+                                left: 0;
+                                top: 10%;
+                                font: 700 16px/1 'suit';
+                                color: #ccc;
+                                >span{
+                                    font: 700 24px/1 'suit';
+                                    color: #000;
+                                }
+                            }
+                            .btnWrap{
+                                position: absolute;
+                                right: 0;
+                                &::after{
+                                    content: '';
+                                    display: block;
+                                    clear: both;
+                                }
+    
+                                >li{
+                                    float: left;
+                                    margin-left: 10px;
+                                    cursor: pointer;
+                                }
+                            }
+    
+                            .barWrap{
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                height: 5px;
+                                .bg{
+                                    width: 100%;
+                                    height: 1px;
+                                    background-color: #333333;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    transform: translateY(-50%);
+                                }
+                                .bar{
+                                    width: calc(100%/12);
+                                    height: 5px;
+                                    background-color: #333;
+                                    border-radius: 5px;
+                                    transition: .3s;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+               
+            }
+        }
+    }
+}
+@media all and (max-width:1024px){
+    #contents{
+        position: relative;
+        &.introduce2{
+            overflow: hidden;
+            padding-bottom: 150px;
+            .inner{
+                width: 100%;
+                
+                .titleWrap{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+        
+                    >h2{
+                        font: 700 45px/1 'suit';
+                        color: #000;
+                        margin-bottom: 10px;
+                        
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+        
+                    }
+                    
+                    >p{
+                        font: 400 18px/1 'suit';
+                        color: #999999;
+                    }
+                }
+                .slideWrap{
+                    width: 100%;
+                    height: 500px;
+                    overflow: hidden;
+                    position: relative;
+                    .panel{
+                        width: 1200%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+    
+                        article{
+                            width: 100%;
+                            padding: 0px;
+                            .inner{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                                .txt{
+                                    width: 100%;
+                                    >h3{
+                                        font: 700 24px/1 'suit';
+                                        color: #000;
+                                        text-align: center;
+                                        padding: 30px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .conWrap{
+                        width: 100%;
+                        height: 80px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding-right: 0;
+                        >.inner{
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            .num{
+                                position: absolute;
+                                left: 0;
+                                top: 10%;
+                                font: 700 16px/1 'suit';
+                                color: #ccc;
+                                >span{
+                                    font: 700 24px/1 'suit';
+                                    color: #000;
+                                }
+                            }
+                            .btnWrap{
+                                position: absolute;
+                                right: 0;
+                                &::after{
+                                    content: '';
+                                    display: block;
+                                    clear: both;
+                                }
+    
+                                >li{
+                                    float: left;
+                                    margin-left: 10px;
+                                    cursor: pointer;
+                                }
+                            }
+    
+                            .barWrap{
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                height: 5px;
+                                .bg{
+                                    width: 100%;
+                                    height: 1px;
+                                    background-color: #333333;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    transform: translateY(-50%);
+                                }
+                                .bar{
+                                    width: calc(100%/12);
+                                    height: 5px;
+                                    background-color: #333;
+                                    border-radius: 5px;
+                                    transition: .3s;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+               
+            }
+        }
+    }
+}
+@media all and (max-width:768px){
+    #contents{
+        position: relative;
+        &.introduce2{
+            overflow: hidden;
+            padding-bottom: 100px;
+            .inner{
+                width: 100%;
+                
+                .titleWrap{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+        
+                    >h2{
+                        font: 700 40px/1 'suit';
+                        color: #000;
+                        margin-bottom: 20px;
+                        
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+                    }
+                    >p{
+                        font: 400 16px/1 'suit';
+                        color: #999999;
+                    }
+                }
+                .slideWrap{
+                    width: 100%;
+                    height: 320px;
+                    overflow: hidden;
+                    position: relative;
+                    .panel{
+                        width: 1200%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+    
+                        article{
+                            width: 100%;
+                            padding: 0px;
+                            .inner{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                                .txt{
+                                    width: 100%;
+                                    >h3{
+                                        font: 700 20px/1 'suit';
+                                        color: #000;
+                                        text-align: center;
+                                        padding: 30px 0;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .conWrap{
+                        width: 100%;
+                        height: 80px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding-right: 0;
+                        >.inner{
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            .num{
+                                position: absolute;
+                                left: 0;
+                                top: 10%;
+                                font: 700 16px/1 'suit';
+                                color: #ccc;
+                                >span{
+                                    font: 700 24px/1 'suit';
+                                    color: #000;
+                                }
+                            }
+                            .btnWrap{
+                                position: absolute;
+                                right: -10px;
+                                &::after{
+                                    content: '';
+                                    display: block;
+                                    clear: both;
+                                }
+    
+                                >li{
+                                    float: left;
+                                    margin-left: 0px;
+                                    cursor: pointer;
+                                    img{
+                                        width: 80%;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+    
+                            .barWrap{
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                height: 5px;
+                                .bg{
+                                    width: 100%;
+                                    height: 1px;
+                                    background-color: #333333;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    transform: translateY(-50%);
+                                }
+                                .bar{
+                                    width: calc(100%/12);
+                                    height: 5px;
+                                    background-color: #333;
+                                    border-radius: 5px;
+                                    transition: .3s;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+               
+            }
+        }
+    }
+}
+@media all and (max-width:479px){
+    #contents{
+        position: relative;
+        &.introduce2{
+            overflow: hidden;
+            padding-bottom: 100px;
+            .inner{
+                width: 100%;
+                
+                .titleWrap{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+        
+                    >h2{
+                        font: 700 30px/1 'suit';
+                        color: #000;
+                        margin-bottom: 20px;
+                        
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+                    }
+                    >p{
+                        font: 300 16px/1 'suit';
+                        color: #999999;
+                    }
+                }
+                .slideWrap{
+                    width: 100%;
+                    height: 280px;
+                    overflow: hidden;
+                    position: relative;
+                    .panel{
+                        width: 1200%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+    
+                        article{
+                            width: 100%;
+                            padding: 0px;
+                            .inner{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                                .txt{
+                                    width: 100%;
+                                    >h3{
+                                        font: 700 16px/1 'suit';
+                                        color: #000;
+                                        text-align: center;
+                                        padding: 30px 0;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .conWrap{
+                        width: 100%;
+                        height: 60px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding-right: 0;
+                        >.inner{
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            .num{
+                                position: absolute;
+                                left: 0;
+                                top: 10%;
+                                font: 700 16px/1 'suit';
+                                color: #ccc;
+                                >span{
+                                    font: 700 24px/1 'suit';
+                                    color: #000;
+                                }
+                            }
+                            .btnWrap{
+                                position: absolute;
+                                right: 0;
+                                width: 25%;
+                                &::after{
+                                    content: '';
+                                    display: block;
+                                    clear: both;
+                                }
+    
+                                >li{
+                                    width: 45%;
+                                    float: left;
+                                    margin-left: 0px;
+                                    cursor: pointer;
+                                    &.next{
+                                        margin-left: 5%;
+                                    }
+                                    img{
+                                        width: 100%;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+    
+                            .barWrap{
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                height: 5px;
+                                .bg{
+                                    width: 100%;
+                                    height: 1px;
+                                    background-color: #333333;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    transform: translateY(-50%);
+                                }
+                                .bar{
+                                    width: calc(100%/12);
+                                    height: 5px;
+                                    background-color: #333;
+                                    border-radius: 5px;
+                                    transition: .3s;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+               
+            }
+        }
+    }
+}
