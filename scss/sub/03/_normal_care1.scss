@@ -1,0 +1,653 @@
+#visual{
+    &.normal_1{
+        .lnb{
+            .inner{
+                >.list{
+                    p{
+                        margin-right: 40px;
+                        &.on{
+                            &::after{
+                                width: 120px;
+                                transform: translate(-2px, 27px);
+                            }
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+#contents{
+    position: relative;
+    &.normal_1{
+        overflow: hidden;
+        .implant_info{
+            width: 100%;
+            padding-bottom: 50px;
+            >.inner{
+                width: 1200px;
+                margin: 0 auto;
+
+
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+
+                >.mImg{
+                    width: 60%;
+                    float: left;
+                    >img{
+                        width: 100%;
+                        object-fit: cover;
+                        box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
+                    }
+                }
+
+                .conWrap{
+                    width: 33%;
+                    float: right;
+                    padding: 120px 0;
+                    h2{
+                        font: 600 18px/1 'suit';
+                        color: #b08668;
+                        margin-bottom: 20px;
+                    }
+                    >h3{
+                        font: 200 56px/1 'suit';
+                        color: #000;
+                        margin-bottom: 40px;
+                        >span{
+                            font-weight: 700;
+                        }
+
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                        }
+                    }
+                    >p{
+                        font: 400 18px/1.5 'suit';
+                        color: #333;
+                        padding-right: 50px;
+                        >span{
+                            display: block;
+                            margin-top: 35px;
+                            font: 400 18px/1 'suit';
+                            color: #bf9b81;
+                        }
+                    }
+                }
+            }
+        }
+
+        .method_way{
+            width: 100%;
+            padding: 50px 0;
+            background-color: #fbf8f5;
+
+            .inner{
+                width: 1200px;
+                margin: 0 auto;
+                padding-bottom: 100px;
+
+                >h3{
+                    font: 300 40px/1 'suit';
+                    color: #000;
+                    margin-bottom:20px;
+                    >span{
+                        font-weight: 600;
+                    }
+
+                    &::after{
+                        content: '';
+                        display: inline-block;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                        background-color: #c5a58d;
+                        margin-left: 10px;
+                    }
+                }
+                >p{
+                    font: 300 16px/1 'suit';
+                    color: #999;
+                    margin-bottom: 40px;
+                }
+                .articleWrap{
+                    width: 100%;
+                    &::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+
+                    >article{
+                        width: 20%;
+                        float: left;
+                        background-color: #fff;
+                        height: 240px;
+                        border: 1px solid #bf9b81;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        >img{
+                            width: auto;
+                            object-fit: cover;
+                        }
+                        >p{
+                            font: 400 18px/1.5 'suit';
+                            color: #111;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        >div{
+                            width: 100px;
+                            height: 30px;
+                            border-radius: 15px;
+                            background-color: #c5a58d;
+                            text-align: center;
+                            font: 500 13px/30px 'suit';
+                            color: #fff;
+                            margin-top: 20px;
+                        }
+
+                        &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3),
+                        &:nth-of-type(4){
+                            border-right: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media all and (max-width:1200px) {
+    
+    #contents{
+        position: relative;
+        &.normal_1{
+            overflow: hidden;
+            .implant_info{
+                width: 100%;
+                padding: 50px;
+                >.inner{
+                    width: 100%;
+                    margin: 0 auto;
+
+
+                    &::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+
+                    >.mImg{
+                        width: 60%;
+                        float: left;
+                        >img{
+                            width: 100%;
+                            object-fit: cover;
+                            box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
+                        }
+                    }
+
+                    .conWrap{
+                        width: 33%;
+                        float: right;
+                        padding: 120px 0;
+                        h2{
+                            font: 600 18px/1 'suit';
+                            color: #b08668;
+                            margin-bottom: 20px;
+                        }
+                        >h3{
+                            font: 200 50px/1 'suit';
+                            color: #000;
+                            margin-bottom: 40px;
+                            >span{
+                                font-weight: 700;
+                            }
+
+                            &::after{
+                                content: '';
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                                border-radius: 50%;
+                                background-color: #c5a58d;
+                            }
+                        }
+                        >p{
+                            font: 400 18px/1.5 'suit';
+                            color: #333;
+                            padding-right: 50px;
+                            >span{
+                                display: block;
+                                margin-top: 35px;
+                                font: 400 18px/1 'suit';
+                                color: #bf9b81;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .method_way{
+                width: 100%;
+                padding: 50px 0;
+                background-color: #fbf8f5;
+
+                .inner{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 0 50px;
+                    padding-bottom: 100px;
+
+                    >h3{
+                        font: 300 40px/1 'suit';
+                        color: #000;
+                        margin-bottom:20px;
+                        >span{
+                            font-weight: 600;
+                        }
+
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+                    }
+                    >p{
+                        font: 300 16px/1 'suit';
+                        color: #999;
+                        margin-bottom: 40px;
+                    }
+                    .articleWrap{
+                        width: 100%;
+                        &::after{
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
+
+                        >article{
+                            width: 20%;
+                            float: left;
+                            background-color: #fff;
+                            height: 240px;
+                            border: 1px solid #bf9b81;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            >img{
+                                width: auto;
+                                object-fit: cover;
+                            }
+                            >p{
+                                font: 400 18px/1.5 'suit';
+                                color: #111;
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            >div{
+                                width: 100px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background-color: #c5a58d;
+                                text-align: center;
+                                font: 500 13px/30px 'suit';
+                                color: #fff;
+                                margin-top: 20px;
+                            }
+
+                            &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3),
+                            &:nth-of-type(4){
+                                border-right: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:1024px) {
+    #contents{
+        position: relative;
+        &.normal_1{
+            overflow: hidden;
+            .implant_info{
+                width: 100%;
+                padding-bottom: 50px;
+                >.inner{
+                    width: 100%;
+                    margin: 0 auto;
+
+
+                    &::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+
+                    >.mImg{
+                        width: 100%;
+                        float: left;
+                        >img{
+                            width: 100%;
+                            object-fit: cover;
+                            box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
+                        }
+                    }
+
+                    .conWrap{
+                        width: 100%;
+                        float: right;
+                        padding: 120px 0;
+                        h2{
+                            font: 600 18px/1 'suit';
+                            color: #b08668;
+                            margin-bottom: 20px;
+                        }
+                        >h3{
+                            font: 200 50px/1 'suit';
+                            color: #000;
+                            margin-bottom: 40px;
+                            >span{
+                                font-weight: 700;
+                            }
+
+                            &::after{
+                                content: '';
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                                border-radius: 50%;
+                                background-color: #c5a58d;
+                            }
+                        }
+                        >p{
+                            font: 400 18px/1.5 'suit';
+                            color: #333;
+                            padding-right: 0;
+                            >span{
+                                display: block;
+                                margin-top: 35px;
+                                font: 400 18px/1 'suit';
+                                color: #bf9b81;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .method_way{
+                width: 100%;
+                padding: 50px 0;
+                background-color: #fbf8f5;
+
+                .inner{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 0 50px;
+                    padding-bottom: 100px;
+
+                    >h3{
+                        font: 300 40px/1 'suit';
+                        color: #000;
+                        margin-bottom:20px;
+                        >span{
+                            font-weight: 600;
+                        }
+
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+                    }
+                    >p{
+                        font: 300 16px/1 'suit';
+                        color: #999;
+                        margin-bottom: 40px;
+                    }
+                    .articleWrap{
+                        width: 100%;
+                        &::after{
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
+
+                        >article{
+                            width: 20%;
+                            float: left;
+                            background-color: #fff;
+                            height: 240px;
+                            border: 1px solid #bf9b81;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            >img{
+                                width: auto;
+                                object-fit: cover;
+                            }
+                            >p{
+                                font: 400 18px/1.5 'suit';
+                                color: #111;
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            >div{
+                                width: 100px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background-color: #c5a58d;
+                                text-align: center;
+                                font: 500 13px/30px 'suit';
+                                color: #fff;
+                                margin-top: 20px;
+                            }
+
+                            &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3),
+                            &:nth-of-type(4){
+                                border-right: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:764px) {
+
+}
+
+@media all and (max-width:479px) {
+    #contents{
+        position: relative;
+        &.normal_1{
+            overflow: hidden;
+            .implant_info{
+                width: 100%;
+                padding-bottom: 50px;
+                >.inner{
+                    width: 100%;
+                    margin: 0 auto;
+
+
+                    &::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+
+                    >.mImg{
+                        width: 100%;
+                        float: left;
+                        >img{
+                            width: 100%;
+                            object-fit: cover;
+                            box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
+                        }
+                    }
+
+                    .conWrap{
+                        width: 100%;
+                        float: right;
+                        padding: 50px 0;
+                        h2{
+                            font: 600 18px/1 'suit';
+                            color: #b08668;
+                            margin-bottom: 20px;
+                        }
+                        >h3{
+                            font: 200 40px/1 'suit';
+                            color: #000;
+                            margin-bottom: 20px;
+                            >span{
+                                font-weight: 700;
+                            }
+
+                            &::after{
+                                content: '';
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                                border-radius: 50%;
+                                background-color: #c5a58d;
+                            }
+                        }
+                        >p{
+                            font: 400 16px/1.5 'suit';
+                            color: #333;
+                            padding-right: 0;
+                            >span{
+                                display: block;
+                                margin-top: 35px;
+                                font: 400 18px/1 'suit';
+                                color: #bf9b81;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .method_way{
+                width: 100%;
+                padding: 50px 0;
+                background-color: #fbf8f5;
+
+                .inner{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 0 50px;
+                    padding-bottom: 70px;
+
+                    >h3{
+                        font: 300 30px/1 'suit';
+                        color: #000;
+                        margin-bottom:20px;
+                        >span{
+                            font-weight: 600;
+                        }
+
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                            margin-left: 10px;
+                        }
+                    }
+                    >p{
+                        font: 300 16px/1 'suit';
+                        color: #999;
+                        margin-bottom: 40px;
+                    }
+                    .articleWrap{
+                        width: 100%;
+                        &::after{
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
+
+                        >article{
+                            width: 100%;
+                            float: left;
+                            background-color: #fff;
+                            height: 240px;
+                            border: 1px solid #bf9b81;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 20px;
+
+                            >img{
+                                width: auto;
+                                object-fit: cover;
+                            }
+                            >p{
+                                font: 400 18px/1.5 'suit';
+                                color: #111;
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            >div{
+                                width: 100px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background-color: #c5a58d;
+                                text-align: center;
+                                font: 500 13px/30px 'suit';
+                                color: #fff;
+                                margin-top: 20px;
+                            }
+
+                            &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3),
+                            &:nth-of-type(4){
+                                border-right: 1px solid #bf9b81;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

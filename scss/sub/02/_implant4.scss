@@ -1,22 +1,25 @@
 #visual{
-    .lnb{
-        .inner{
-            >.list{
-                p{
-                    margin-right: 40px;
-                    &.on{
-                        &::after{
-                            width: 110px;
-                            transform: translate(-12px, 27px);
+    &.implant_4{
+        .lnb{
+            .inner{
+                >.list{
+                    p{
+                        margin-right: 40px;
+                        &.on{
+                            &::after{
+                                width: 120px;
+                                transform: translate(-2px, 27px);
+                            }
                         }
-                    }
-                    &:last-child{
-                        margin-right: 0;
+                        &:last-child{
+                            margin-right: 0;
+                        }
                     }
                 }
             }
         }
     }
+    
 }
 
 
