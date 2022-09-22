@@ -5,19 +5,22 @@ body {
     overflow-x: hidden;
 }
 #visual{
-    .lnb{
-        .inner{
-            >.list{
-                p{
-                    &.on{
-                        &::after{
-                            width: 110px;
+    &.introduce_2{
+        .lnb{
+            .inner{
+                >.list{
+                    p{
+                        &.on{
+                            &::after{
+                                width: 110px;
+                            }
                         }
                     }
                 }
             }
         }
     }
+    
 }
 #contents{
     position: relative;

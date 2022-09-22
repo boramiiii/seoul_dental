@@ -300,7 +300,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -365,6 +365,7 @@
                     width: 100%;
                     margin: 50px auto;
                     padding: 0 50px;
+                    
                     >h4{
                         font: 200 30px/1 'suit';
                         color: #000;
@@ -453,6 +454,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -912,7 +914,6 @@
                 .inner{
                     width: 100%;
                     margin: 50px auto;
-                    padding: 0 50px;
                     >h4{
                         font: 200 30px/1 'suit';
                         color: #000;
@@ -1005,7 +1006,6 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
-
                     &::after{
                         content: '';
                         display: block;
@@ -1120,7 +1120,7 @@
             overflow: hidden;
             .implant_info{
                 width: 100%;
-                padding: 50px;
+                padding: 30px;
                 padding-top: 0;
 
                 >.inner{
@@ -1191,7 +1191,7 @@
                 .inner{
                     width: 100%;
                     margin: 50px auto;
-                    padding: 0 50px;
+                    padding: 0 30px;
                     >h4{
                         font: 200 30px/1 'suit';
                         color: #000;
@@ -1280,7 +1280,7 @@
             }
             .caution{
                 width: 100%;
-                padding: 100px 50px;
+                padding: 100px 30px;
                 .inner{
                     width: 100%;
                     margin: 0 auto;

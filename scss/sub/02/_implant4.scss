@@ -239,7 +239,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -304,6 +304,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 ;
                     >h1{
                         font: 200 30px/1 'suit';
                         color: #000;
@@ -367,7 +368,9 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0;
                     padding-bottom: 50px;
+
                     >h1{
                         font: 200 30px/1 'suit';
                         color: #000;
@@ -719,7 +722,7 @@
             overflow: hidden;
             .implant_info{
                 width: 100%;
-                padding: 50px;
+                padding: 30px;
                 padding-top: 0;
 
                 >.inner{
@@ -779,7 +782,7 @@
             }
             .process1{
                 width: 100%;
-                padding: 50px;
+                padding:50px 30px;
                 background-color: #fbf8f5;
                 .inner{
                     width: 100%;
@@ -831,7 +834,7 @@
             }
             .process2{
                 width: 100%;
-                padding: 50px;
+                padding: 50px 30px;
                 .inner{
                     width: 100%;
                     margin: 0 auto;

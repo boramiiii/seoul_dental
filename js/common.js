@@ -152,6 +152,50 @@ btn_lnb_mo.addEventListener("click",(e)=>{
     lnb_mo_list.classList.toggle("on");
 })
 
+
+
+// 지도
+var mapContainer = document.getElementById('map2');   
+
+var mapOption = {
+    center: new kakao.maps.LatLng(37.612205, 126.928791), // 지도의 중심좌표
+    level: 3, // 지도의 확대 레벨
+    // draggable:false
+};
+var map = new kakao.maps.Map(mapContainer, mapOption);
+var mapTypeControl = new kakao.maps.MapTypeControl();
+map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+var zoomControl = new kakao.maps.ZoomControl();
+map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+let drag = false; //드래그 가능 
+let zoom = true; //확대축소 가능 
+
+
+var markerPosition  = new kakao.maps.LatLng(37.612205, 126.928791); 
+
+var marker = new kakao.maps.Marker({
+    position: markerPosition
+});
+
+marker.setMap(map);
+
+var iwContent = '<div style="padding:20px; text-align:center; font-weight:bold;">서울공감치과</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+    iwPosition = new kakao.maps.LatLng(33.450701, 126.570667); //인포윈도우 표시 위치입니다
+
+// 인포윈도우를 생성합니다
+var infowindow = new kakao.maps.InfoWindow({
+    position : iwPosition, 
+    content : iwContent 
+});
+  
+// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+infowindow.open(map, marker);
+
+
+window.addEventListener("resize",()=>{    
+    map.setCenter(markerOptions[active_index].latlng);
+}); 
+
 function setPos(){
     posArr =[]; 
     for(const section of sections){

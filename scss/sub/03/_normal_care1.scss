@@ -190,7 +190,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -346,7 +346,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -502,11 +502,13 @@
             overflow: hidden;
             .implant_info{
                 width: 100%;
+                padding-top: 0;
                 padding-bottom: 50px;
+                padding: 0 30px;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
+                    padding: 0;
 
                     &::after{
                         content: '';
@@ -573,7 +575,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
-                    padding: 0 50px;
+                    padding: 0 30px;
                     padding-bottom: 70px;
 
                     >h3{

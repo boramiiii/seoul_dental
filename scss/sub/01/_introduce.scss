@@ -4,7 +4,29 @@ body {
 	position: relative;
     overflow-x: hidden;
 }
-
+#visual{
+    &.introduce_1{
+        .lnb{
+            .inner{
+                >.list{
+                    p{
+                        margin-right: 40px;
+                        &.on{
+                            &::after{
+                                width: 150px;
+                                transform: translate(0, 27px);
+                            }
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
 
 #contents{
     width: 100%;
@@ -248,7 +270,7 @@ body {
             width: 100%;
             margin: 0 auto;
             position: relative;
-    
+            padding: 0 50px;
             .explan{
                 width: 100%;
                 .txtWrap{
@@ -452,6 +474,7 @@ body {
             width: 100%;
             margin: 0 auto;
             position: relative;
+            padding: 0 50px;
     
             .explan{
                 width: 100%;
@@ -670,6 +693,7 @@ body {
             width: 100%;
             margin: 0 auto;
             position: relative;
+            padding: 0 50px;
     
             .explan{
                 width: 100%;
@@ -892,6 +916,7 @@ body {
             width: 100%;
             margin: 0 auto;
             position: relative;
+            padding: 0 30px;
     
             .explan{
                 width: 100%;
