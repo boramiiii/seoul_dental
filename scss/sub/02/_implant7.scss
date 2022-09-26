@@ -1,0 +1,108 @@
+#visual{
+    &.implant_7{
+        .lnb{
+            .inner{
+                >.list{
+                    p{
+                        margin-right: 40px;
+                        &.on{
+                            &::after{
+                                width: 120px;
+                                transform: translate(-5px, 27px);
+                            }
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+#contents{
+    position: relative;
+    padding-top: 0;
+    &.implant_7{
+        overflow: hidden;
+        .implant_info{
+            width: 100%;
+            padding: 100px 0;
+            padding-bottom: 50px;
+            background: linear-gradient(180deg, rgba(255,255,255,1) 48%, rgba(243,237,232,1) 100%);
+            >.inner{
+                width: 1200px;
+                margin: 0 auto;
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+
+                >.mImg{
+                    width: 60%;
+                    float: left;
+                    >img{
+                        width: 100%;
+                        object-fit: cover;
+                        box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
+                    }
+                }
+
+                .conWrap{
+                    width: 33%;
+                    float: right;
+                    padding: 120px 0;
+                    h2{
+                        font: 600 18px/1 'suit';
+                        color: #b08668;
+                        margin-bottom: 20px;
+                    }
+                    >h3{
+                        font: 200 56px/1 'suit';
+                        color: #000;
+                        margin-bottom: 40px;
+                        >span{
+                            font-weight: 700;
+                        }
+
+                        &::after{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #c5a58d;
+                        }
+                    }
+                    >p{
+                        font: 400 18px/1.5 'suit';
+                        color: #333;
+                        padding-right: 50px;
+                        >span{
+                            display: block;
+                            margin-top: 35px;
+                            font: 400 18px/1 'suit';
+                            color: #bf9b81;
+                        }
+                    }
+                }
+
+            }
+        }
+        
+    }
+}
+
+
+
+@media all and (max-width:1200px) {}
+
+@media all and (max-width:1024px) {}
+
+@media all and (max-width:764px) {}
+
+@media all and (max-width:479px) {}

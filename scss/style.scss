@@ -9,9 +9,12 @@
 
 //임플란트
 @import 'sub/02/implant.scss';
+@import 'sub/02/implant2.scss';
+@import 'sub/02/implant3.scss';
 @import 'sub/02/implant4.scss';
+@import 'sub/02/implant5.scss';
 @import 'sub/02/implant6.scss';
-
+@import 'sub/02/implant7.scss';
 
 //일반진료
 @import 'sub/03/normal_care1.scss';
@@ -21,6 +24,7 @@
 
 //사랑니 발치, 턱관절
 @import 'sub/04/wisdom';
+@import 'sub/04/bruising';
 
 
 
@@ -1164,7 +1168,7 @@ section#location{
             margin-bottom: 30px;
         }
         >h3{
-            font: 100 56px/1.4 'suit';
+            font: 300 56px/1.4 'suit';
             color: #8a6f5b;
             >span{
                 display: block;
@@ -1810,7 +1814,7 @@ ul.quick_menu{
                 font: 700 14px/1 'suit';
             }
             >h3{
-                font: 100 35px/1.4 'suit';
+                font: 300 35px/1.4 'suit';
                 &::after{
                     margin: 30px 0 35px;
                 }
