@@ -223,6 +223,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 50px;
                     &::after{
                         content: '';
                         display: block;
@@ -282,11 +283,12 @@
             }
             .select{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 150px;  
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
                     >h3{
                         font: 200 35px/1.5 'suit';
                         color: #000;
@@ -469,7 +471,7 @@
             }
             .select{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 150px;  
                 .inner{
                     width: 100%;
@@ -657,7 +659,7 @@
             }
             .select{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 150px;  
                 .inner{
                     width: 100%;

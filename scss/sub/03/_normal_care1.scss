@@ -499,8 +499,10 @@
 @media all and (max-width:479px) {
     #contents{
         position: relative;
+        
         &.normal_1{
             overflow: hidden;
+            padding-top: 50px;
             .implant_info{
                 width: 100%;
                 padding-top: 0;

@@ -255,7 +255,7 @@
                             height: 100%;
                             float: left;
                             >img{
-                                width: 100%;
+                                width: auto;
                                 object-fit: cover;
                             }
                         }
@@ -565,12 +565,14 @@
         position: relative;
         padding-left: 0;
         padding-right: 0;
+        
         &.implant_1{
             overflow: hidden;
+            padding-top: 50px;
             .implant_info{
                 width: 100%;
                 padding: 50px;
-                padding-top: 0;
+                padding-top: 50px;
 
                 >.inner{
                     width: 100%;
@@ -679,7 +681,7 @@
                                 position: relative;
 
                                 img{
-                                    width: 50%;
+                                    width: 100%;
                                     object-fit: cover;
                                 }
                                 &::after{
@@ -800,11 +802,11 @@
                             }
 
                             .img{
-                                width: 15%;
+                                width: auto;
                                 height: 100%;
                                 float: left;
                                 >img{
-                                    width: 100%;
+                                    width: auto;
                                     object-fit: cover;
                                 }
                             }
@@ -1077,11 +1079,11 @@
                             }
 
                             .img{
-                                width: 15%;
+                                width: auto;
                                 height: 100%;
                                 float: left;
                                 >img{
-                                    width: 100%;
+                                    width: auto;
                                     object-fit: cover;
                                 }
                             }
@@ -1225,8 +1227,8 @@
                             align-items: center;
 
                             .circle{
-                                width: 120px;
-                                height: 120px;
+                                width: 150px;
+                                height: 150px;
                                 background-color: #fff;
                                 border-radius: 50%;
                                 display: flex;
@@ -1235,7 +1237,7 @@
                                 position: relative;
 
                                 img{
-                                    width: 50%;
+                                    width: 100%;
                                     object-fit: cover;
                                 }
                                 &::after{
@@ -1356,11 +1358,11 @@
                             }
 
                             .img{
-                                width: 15%;
+                                width: auto;
                                 height: 100%;
                                 float: left;
                                 >img{
-                                    width: 100%;
+                                    width: auto;
                                     object-fit: cover;
                                 }
                             }

@@ -352,6 +352,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
     
                     &::after{
                         content: '';
@@ -419,6 +420,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
     
                     >h3{
                         font: 300 40px/1 'suit';
@@ -492,6 +494,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
                     >h3{
                         font: 300 40px/1 'suit';
                         color: #000;
@@ -581,6 +584,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
                     padding-bottom: 100px;
     
                     >h3{
@@ -1310,12 +1314,14 @@
         position: relative;
         &.normal_3{
             overflow: hidden;
+            padding-top: 50px;
             .normal_info{
                 width: 100%;
                 padding-bottom: 20px;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
     
                     &::after{
                         content: '';
@@ -1383,6 +1389,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
     
                     >h3{
                         font: 300 30px/1 'suit';
@@ -1458,6 +1465,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     >h3{
                         font: 300 30px/1 'suit';
                         color: #000;
@@ -1550,6 +1558,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     padding-bottom: 50px;
     
                     >h3{

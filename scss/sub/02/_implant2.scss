@@ -291,16 +291,19 @@
     #contents{
         position: relative;
         padding-top: 0;
+        
         &.implant_2{
             overflow: hidden;
+
             .implant_info{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 50px;
                 background: linear-gradient(180deg, rgba(255,255,255,1) 48%, rgba(243,237,232,1) 100%);
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 50px;
                     &::after{
                         content: '';
                         display: block;
@@ -457,6 +460,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 50px;
                     >h3{
                         font: 100 40px/1 'suit';
                         color: #000;
@@ -559,7 +563,7 @@
             overflow: hidden;
             .implant_info{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 50px;
                 background: linear-gradient(180deg, rgba(255,255,255,1) 48%, rgba(243,237,232,1) 100%);
                 >.inner{
@@ -823,7 +827,7 @@
             overflow: hidden;
             .implant_info{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 padding-bottom: 50px;
                 background: linear-gradient(180deg, rgba(255,255,255,1) 48%, rgba(243,237,232,1) 100%);
                 >.inner{
@@ -1101,6 +1105,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     &::after{
                         content: '';
                         display: block;
@@ -1264,6 +1269,8 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
+
                     >h3{
                         font: 100 30px/1 'suit';
                         color: #000;

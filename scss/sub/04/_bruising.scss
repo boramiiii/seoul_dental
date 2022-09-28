@@ -34,6 +34,7 @@
         overflow: hidden;
         .bruising_info{
             width: 100%;
+            padding-top: 100px;
             padding-bottom: 100px;
             >.inner{
                 width: 1200px;
@@ -349,6 +350,8 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
+
                     &::after{
                         content: '';
                         display: block;
@@ -416,6 +419,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
     
                     >h3{
                         font: 300 40px/1 'suit';
@@ -1304,10 +1308,12 @@
             overflow: hidden;
             .bruising_info{
                 width: 100%;
+                padding-top: 50px;
                 padding-bottom: 50px;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     &::after{
                         content: '';
                         display: block;
@@ -1376,7 +1382,8 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
-    
+                    padding: 0 30px;
+
                     >h3{
                         font: 300 26px/1 'suit';
                         color: #000;

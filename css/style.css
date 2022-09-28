@@ -940,31 +940,32 @@ body {
   width: 100%;
   padding-top: 100px;
 }
-#contents .inner {
+#contents.introduce1 .inner {
   width: 1200px;
   margin: 0 auto;
   position: relative;
+  padding-top: 100px;
 }
-#contents .inner .explan {
+#contents.introduce1 .inner .explan {
   width: 100%;
 }
-#contents .inner .explan::after {
+#contents.introduce1 .inner .explan::after {
   content: "";
   display: block;
   clear: both;
 }
-#contents .inner .explan .txtWrap {
+#contents.introduce1 .inner .explan .txtWrap {
   float: left;
 }
-#contents .inner .explan .txtWrap > h2 {
+#contents.introduce1 .inner .explan .txtWrap > h2 {
   font: 200 56px/1.5 "suit";
   color: #000;
   margin-bottom: 30px;
 }
-#contents .inner .explan .txtWrap > h2 > span {
+#contents.introduce1 .inner .explan .txtWrap > h2 > span {
   font-weight: 700;
 }
-#contents .inner .explan .txtWrap > h2::after {
+#contents.introduce1 .inner .explan .txtWrap > h2::after {
   content: "";
   display: inline-block;
   width: 10px;
@@ -972,92 +973,92 @@ body {
   border-radius: 50%;
   background-color: #c5a58d;
 }
-#contents .inner .explan .txtWrap > p {
+#contents.introduce1 .inner .explan .txtWrap > p {
   font: 300 18px/1 "suit";
   color: #999999;
 }
-#contents .inner .explan .iconWrap {
+#contents.introduce1 .inner .explan .iconWrap {
   width: 800px;
   float: right;
   display: flex;
   flex-wrap: wrap;
 }
-#contents .inner .explan .iconWrap article {
+#contents.introduce1 .inner .explan .iconWrap article {
   width: 50%;
   float: left;
   padding: 50px 0;
   border-bottom: 1px solid rgba(17, 17, 17, 0.2);
 }
-#contents .inner .explan .iconWrap article::after {
+#contents.introduce1 .inner .explan .iconWrap article::after {
   content: "";
   display: block;
   clear: both;
 }
-#contents .inner .explan .iconWrap article .img {
+#contents.introduce1 .inner .explan .iconWrap article .img {
   width: auto;
   height: 100%;
   float: left;
 }
-#contents .inner .explan .iconWrap article .img > img {
+#contents.introduce1 .inner .explan .iconWrap article .img > img {
   width: auto;
   object-fit: cover;
   margin-right: 50px;
   float: left;
 }
-#contents .inner .explan .iconWrap article .txt {
+#contents.introduce1 .inner .explan .iconWrap article .txt {
   width: auto;
   height: 100%;
   padding-right: 50px;
 }
-#contents .inner .explan .iconWrap article .txt > h3 {
+#contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
   font: 700 28px/1 "suit";
   color: #000;
   margin-bottom: 20px;
 }
-#contents .inner .explan .iconWrap article .txt p {
+#contents.introduce1 .inner .explan .iconWrap article .txt p {
   font: 400 18px/1.5 "suit";
   color: #333;
   opacity: 0.6;
 }
-#contents .inner .explan .iconWrap article:nth-of-type(1), #contents .inner .explan .iconWrap article:nth-of-type(2) {
+#contents.introduce1 .inner .explan .iconWrap article:nth-of-type(1), #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(2) {
   padding-top: 0;
 }
-#contents .inner .explan .iconWrap article:nth-of-type(5), #contents .inner .explan .iconWrap article:nth-of-type(6) {
+#contents.introduce1 .inner .explan .iconWrap article:nth-of-type(5), #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) {
   border: none;
 }
-#contents .inner .explan::after {
+#contents.introduce1 .inner .explan::after {
   content: "";
   display: block;
   width: 100%;
   height: 2px;
   background-color: #000;
 }
-#contents .inner .profile {
+#contents.introduce1 .inner .profile {
   width: 100%;
   padding-bottom: 220px;
   padding-top: 80px;
 }
-#contents .inner .profile .info {
+#contents.introduce1 .inner .profile .info {
   position: relative;
   width: 100%;
 }
-#contents .inner .profile .info > .title {
+#contents.introduce1 .inner .profile .info > .title {
   margin-bottom: 80px;
   position: relative;
 }
-#contents .inner .profile .info > .title > p {
+#contents.introduce1 .inner .profile .info > .title > p {
   font: 300 24px/1 "suit";
   color: #000;
   margin-bottom: 30px;
 }
-#contents .inner .profile .info > .title > h4 {
+#contents.introduce1 .inner .profile .info > .title > h4 {
   font: 100 80px/1 "suit";
   color: #000;
 }
-#contents .inner .profile .info > .title > h4 > span {
+#contents.introduce1 .inner .profile .info > .title > h4 > span {
   font-weight: 700;
 }
-#contents .inner .profile .info > .title > h4::after {
+#contents.introduce1 .inner .profile .info > .title > h4::after {
   content: "";
   display: inline-block;
   width: 10px;
@@ -1065,121 +1066,121 @@ body {
   border-radius: 50%;
   background-color: #c5a58d;
 }
-#contents .inner .profile .info > .list::after {
+#contents.introduce1 .inner .profile .info > .list::after {
   content: "";
   display: block;
   clear: both;
 }
-#contents .inner .profile .info > .list .history {
+#contents.introduce1 .inner .profile .info > .list .history {
   float: left;
 }
-#contents .inner .profile .info > .list .history::after {
+#contents.introduce1 .inner .profile .info > .list .history::after {
   content: "";
   display: block;
   clear: both;
 }
-#contents .inner .profile .info > .list .history .bar {
+#contents.introduce1 .inner .profile .info > .list .history .bar {
   width: 7px;
   height: 23px;
   background-color: #c5a58d;
   margin-right: 10px;
   float: left;
 }
-#contents .inner .profile .info > .list .history h5 {
+#contents.introduce1 .inner .profile .info > .list .history h5 {
   font: 600 26px/23px "suit";
   color: #c5a58d;
   margin-bottom: 45px;
   float: left;
 }
-#contents .inner .profile .info > .list .history ul {
+#contents.introduce1 .inner .profile .info > .list .history ul {
   width: 100%;
   float: left;
   margin-left: 20px;
 }
-#contents .inner .profile .info > .list .history ul li {
+#contents.introduce1 .inner .profile .info > .list .history ul li {
   list-style-type: disc;
   padding-bottom: 30px;
   font: 400 18px/1 "suit";
   color: #333;
 }
-#contents .inner .profile .info > .list .history ul li::marker {
+#contents.introduce1 .inner .profile .info > .list .history ul li::marker {
   color: #c5a58d;
 }
-#contents .inner .profile .info > .list .active {
+#contents.introduce1 .inner .profile .info > .list .active {
   float: left;
   margin-left: 70px;
 }
-#contents .inner .profile .info > .list .active::after {
+#contents.introduce1 .inner .profile .info > .list .active::after {
   content: "";
   display: block;
   clear: both;
 }
-#contents .inner .profile .info > .list .active .bar {
+#contents.introduce1 .inner .profile .info > .list .active .bar {
   width: 7px;
   height: 23px;
   background-color: #c5a58d;
   margin-right: 10px;
   float: left;
 }
-#contents .inner .profile .info > .list .active h5 {
+#contents.introduce1 .inner .profile .info > .list .active h5 {
   font: 600 26px/23px "suit";
   color: #c5a58d;
   margin-bottom: 45px;
   float: left;
 }
-#contents .inner .profile .info > .list .active ul {
+#contents.introduce1 .inner .profile .info > .list .active ul {
   width: 100%;
   margin-left: 20px;
   float: left;
 }
-#contents .inner .profile .info > .list .active ul li {
+#contents.introduce1 .inner .profile .info > .list .active ul li {
   list-style-type: disc;
   padding-bottom: 30px;
   font: 400 18px/1 "suit";
   color: #333;
 }
-#contents .inner .profile .info > .list .active ul li::marker {
+#contents.introduce1 .inner .profile .info > .list .active ul li::marker {
   color: #c5a58d;
 }
-#contents .inner .profile .person {
+#contents.introduce1 .inner .profile .person {
   position: absolute;
   right: -200px;
   bottom: -10px;
 }
-#contents .inner .profile .person img {
+#contents.introduce1 .inner .profile .person img {
   width: auto;
   object-fit: cover;
   filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
 }
 
 @media all and (max-width: 1200px) {
-  #contents {
+  #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
     padding: 100px 50px 0 50px;
   }
-  #contents .inner {
+  #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 0 50px;
   }
-  #contents .inner .explan {
+  #contents.introduce1 .inner .explan {
     width: 100%;
   }
-  #contents .inner .explan .txtWrap {
+  #contents.introduce1 .inner .explan .txtWrap {
     width: 30%;
     float: left;
   }
-  #contents .inner .explan .txtWrap > h2 {
+  #contents.introduce1 .inner .explan .txtWrap > h2 {
     font: 200 45px/1.5 "suit";
     color: #000;
     margin-bottom: 30px;
   }
-  #contents .inner .explan .txtWrap > h2 > span {
+  #contents.introduce1 .inner .explan .txtWrap > h2 > span {
     font-weight: 700;
   }
-  #contents .inner .explan .txtWrap > h2::after {
+  #contents.introduce1 .inner .explan .txtWrap > h2::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1187,92 +1188,98 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .explan .txtWrap > p {
+  #contents.introduce1 .inner .explan .txtWrap > p {
     font: 300 18px/1 "suit";
     color: #999999;
   }
-  #contents .inner .explan .iconWrap {
+  #contents.introduce1 .inner .explan .iconWrap {
     width: 65%;
     float: right;
     display: flex;
     flex-wrap: wrap;
   }
-  #contents .inner .explan .iconWrap article {
-    width: 50%;
+  #contents.introduce1 .inner .explan .iconWrap article {
+    width: 100%;
     float: left;
     padding: 50px 0;
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article::after {
+  #contents.introduce1 .inner .explan .iconWrap article::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article .img {
+  #contents.introduce1 .inner .explan .iconWrap article .img {
     width: auto;
     height: 100%;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .img > img {
+  #contents.introduce1 .inner .explan .iconWrap article .img > img {
     width: auto;
     object-fit: cover;
     margin-right: 50px;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .txt {
+  #contents.introduce1 .inner .explan .iconWrap article .txt {
     width: auto;
     height: 100%;
-    padding-right: 50px;
+    padding-right: 0;
   }
-  #contents .inner .explan .iconWrap article .txt > h3 {
+  #contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
     font: 700 24px/1 "suit";
     color: #000;
     margin-bottom: 20px;
   }
-  #contents .inner .explan .iconWrap article .txt p {
+  #contents.introduce1 .inner .explan .iconWrap article .txt p {
     font: 400 16px/1.5 "suit";
     color: #333;
     opacity: 0.6;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(1), #contents .inner .explan .iconWrap article:nth-of-type(2) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(1), #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(2) {
+    padding-top: 50px;
+  }
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(5), #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+  }
+  #contents.introduce1 .inner .explan .iconWrap article:last-child {
+    border-bottom: none;
+  }
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(1) {
     padding-top: 0;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(5), #contents .inner .explan .iconWrap article:nth-of-type(6) {
-    border: none;
-  }
-  #contents .inner .explan::after {
+  #contents.introduce1 .inner .explan::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background-color: #000;
   }
-  #contents .inner .profile {
+  #contents.introduce1 .inner .profile {
     width: 100%;
     padding-bottom: 150px;
     padding-top: 80px;
   }
-  #contents .inner .profile .info {
+  #contents.introduce1 .inner .profile .info {
     position: relative;
     width: 100%;
   }
-  #contents .inner .profile .info > .title {
+  #contents.introduce1 .inner .profile .info > .title {
     margin-bottom: 80px;
     position: relative;
   }
-  #contents .inner .profile .info > .title > p {
+  #contents.introduce1 .inner .profile .info > .title > p {
     font: 300 22px/1 "suit";
     color: #000;
     margin-bottom: 30px;
   }
-  #contents .inner .profile .info > .title > h4 {
+  #contents.introduce1 .inner .profile .info > .title > h4 {
     font: 100 60px/1 "suit";
     color: #000;
   }
-  #contents .inner .profile .info > .title > h4 > span {
+  #contents.introduce1 .inner .profile .info > .title > h4 > span {
     font-weight: 700;
   }
-  #contents .inner .profile .info > .title > h4::after {
+  #contents.introduce1 .inner .profile .info > .title > h4::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1280,94 +1287,97 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .profile .info > .list::after {
+  #contents.introduce1 .inner .profile .info > .list::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .profile .info > .list .history {
+  #contents.introduce1 .inner .profile .info > .list .history {
+    width: 100%;
     float: left;
   }
-  #contents .inner .profile .info > .list .history h5 {
+  #contents.introduce1 .inner .profile .info > .list .history h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
   }
-  #contents .inner .profile .info > .list .history ul {
+  #contents.introduce1 .inner .profile .info > .list .history ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .history ul li {
+  #contents.introduce1 .inner .profile .info > .list .history ul li {
     list-style-type: disc;
     padding-bottom: 30px;
     font: 400 18px/1 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .history ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .history ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active {
+  #contents.introduce1 .inner .profile .info > .list .active {
+    width: 100%;
     float: left;
-    margin-left: 70px;
+    margin-left: 0;
+    margin-top: 50px;
   }
-  #contents .inner .profile .info > .list .active h5 {
+  #contents.introduce1 .inner .profile .info > .list .active h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
   }
-  #contents .inner .profile .info > .list .active ul {
+  #contents.introduce1 .inner .profile .info > .list .active ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .active ul li {
+  #contents.introduce1 .inner .profile .info > .list .active ul li {
     list-style-type: disc;
     padding-bottom: 30px;
     font: 400 18px/1.5 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .active ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .active ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active ul li:last-child {
+  #contents.introduce1 .inner .profile .info > .list .active ul li:last-child {
     width: 70%;
   }
-  #contents .inner .profile .person {
+  #contents.introduce1 .inner .profile .person {
     position: absolute;
     right: -230px;
     bottom: -10px;
   }
-  #contents .inner .profile .person img {
+  #contents.introduce1 .inner .profile .person img {
     width: 80%;
     object-fit: cover;
     filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
   }
 }
 @media all and (max-width: 1024px) {
-  #contents {
+  #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
     padding: 100px 50px 0 50px;
   }
-  #contents .inner {
+  #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 0 50px;
   }
-  #contents .inner .explan {
+  #contents.introduce1 .inner .explan {
     width: 100%;
   }
-  #contents .inner .explan .txtWrap {
+  #contents.introduce1 .inner .explan .txtWrap {
     width: 35%;
     float: left;
   }
-  #contents .inner .explan .txtWrap > h2 {
+  #contents.introduce1 .inner .explan .txtWrap > h2 {
     font: 200 35px/1.5 "suit";
     color: #000;
     margin-bottom: 10px;
   }
-  #contents .inner .explan .txtWrap > h2 > span {
+  #contents.introduce1 .inner .explan .txtWrap > h2 > span {
     font-weight: 700;
   }
-  #contents .inner .explan .txtWrap > h2::after {
+  #contents.introduce1 .inner .explan .txtWrap > h2::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1375,100 +1385,100 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .explan .txtWrap > p {
+  #contents.introduce1 .inner .explan .txtWrap > p {
     font: 300 14px/1.5 "suit";
     color: #999999;
   }
-  #contents .inner .explan .iconWrap {
+  #contents.introduce1 .inner .explan .iconWrap {
     width: 60%;
     float: right;
     display: flex;
     flex-wrap: wrap;
   }
-  #contents .inner .explan .iconWrap article {
+  #contents.introduce1 .inner .explan .iconWrap article {
     width: 100%;
     float: left;
     padding: 50px 0;
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article::after {
+  #contents.introduce1 .inner .explan .iconWrap article::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article .img {
+  #contents.introduce1 .inner .explan .iconWrap article .img {
     width: auto;
     height: 100%;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .img > img {
+  #contents.introduce1 .inner .explan .iconWrap article .img > img {
     width: auto;
     object-fit: cover;
     margin-right: 50px;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .txt {
+  #contents.introduce1 .inner .explan .iconWrap article .txt {
     width: auto;
     height: 100%;
     padding-right: 50px;
   }
-  #contents .inner .explan .iconWrap article .txt > h3 {
+  #contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
     font: 700 24px/1 "suit";
     color: #000;
     margin-bottom: 20px;
   }
-  #contents .inner .explan .iconWrap article .txt p {
+  #contents.introduce1 .inner .explan .iconWrap article .txt p {
     font: 400 16px/1.5 "suit";
     color: #333;
     opacity: 0.6;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(2) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(2) {
     padding-top: 50px;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(5) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(5) {
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6)::after {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6)::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6) .txt {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt {
     padding-right: 100px;
   }
-  #contents .inner .explan::after {
+  #contents.introduce1 .inner .explan::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background-color: #000;
   }
-  #contents .inner .profile {
+  #contents.introduce1 .inner .profile {
     width: 100%;
     padding-bottom: 100px;
     padding-top: 80px;
   }
-  #contents .inner .profile .info {
+  #contents.introduce1 .inner .profile .info {
     position: relative;
     width: 100%;
   }
-  #contents .inner .profile .info > .title {
+  #contents.introduce1 .inner .profile .info > .title {
     margin-bottom: 80px;
     position: relative;
   }
-  #contents .inner .profile .info > .title > p {
+  #contents.introduce1 .inner .profile .info > .title > p {
     font: 300 20px/1 "suit";
     color: #000;
     margin-bottom: 30px;
   }
-  #contents .inner .profile .info > .title > h4 {
+  #contents.introduce1 .inner .profile .info > .title > h4 {
     font: 100 50px/1 "suit";
     color: #000;
   }
-  #contents .inner .profile .info > .title > h4 > span {
+  #contents.introduce1 .inner .profile .info > .title > h4 > span {
     font-weight: 700;
   }
-  #contents .inner .profile .info > .title > h4::after {
+  #contents.introduce1 .inner .profile .info > .title > h4::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1476,97 +1486,97 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .profile .info > .list::after {
+  #contents.introduce1 .inner .profile .info > .list::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .profile .info > .list .history {
+  #contents.introduce1 .inner .profile .info > .list .history {
     width: 100%;
     float: left;
   }
-  #contents .inner .profile .info > .list .history h5 {
+  #contents.introduce1 .inner .profile .info > .list .history h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
   }
-  #contents .inner .profile .info > .list .history ul {
+  #contents.introduce1 .inner .profile .info > .list .history ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .history ul li {
+  #contents.introduce1 .inner .profile .info > .list .history ul li {
     list-style-type: disc;
     padding-bottom: 30px;
     font: 400 18px/1 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .history ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .history ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active {
+  #contents.introduce1 .inner .profile .info > .list .active {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-top: 80px;
   }
-  #contents .inner .profile .info > .list .active h5 {
+  #contents.introduce1 .inner .profile .info > .list .active h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 45px;
   }
-  #contents .inner .profile .info > .list .active ul {
+  #contents.introduce1 .inner .profile .info > .list .active ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .active ul li {
+  #contents.introduce1 .inner .profile .info > .list .active ul li {
     list-style-type: disc;
     padding-bottom: 30px;
     font: 400 18px/1.5 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .active ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .active ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active ul li:last-child {
+  #contents.introduce1 .inner .profile .info > .list .active ul li:last-child {
     width: 50%;
   }
-  #contents .inner .profile .person {
+  #contents.introduce1 .inner .profile .person {
     position: absolute;
     right: -230px;
     bottom: -10px;
   }
-  #contents .inner .profile .person img {
+  #contents.introduce1 .inner .profile .person img {
     width: 80%;
     object-fit: cover;
     filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
   }
 }
 @media all and (max-width: 768px) {
-  #contents {
+  #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
     padding: 100px 50px 0 50px;
   }
-  #contents .inner {
+  #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 0 50px;
   }
-  #contents .inner .explan {
+  #contents.introduce1 .inner .explan {
     width: 100%;
   }
-  #contents .inner .explan .txtWrap {
+  #contents.introduce1 .inner .explan .txtWrap {
     width: 100%;
     float: left;
   }
-  #contents .inner .explan .txtWrap > h2 {
+  #contents.introduce1 .inner .explan .txtWrap > h2 {
     font: 200 40px/1.5 "suit";
     color: #000;
     margin-bottom: 10px;
   }
-  #contents .inner .explan .txtWrap > h2 > span {
+  #contents.introduce1 .inner .explan .txtWrap > h2 > span {
     font-weight: 700;
   }
-  #contents .inner .explan .txtWrap > h2::after {
+  #contents.introduce1 .inner .explan .txtWrap > h2::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1574,104 +1584,104 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .explan .txtWrap > p {
+  #contents.introduce1 .inner .explan .txtWrap > p {
     font: 300 16px/1.5 "suit";
     color: #999999;
   }
-  #contents .inner .explan .iconWrap {
+  #contents.introduce1 .inner .explan .iconWrap {
     width: 100%;
     margin-top: 80px;
     float: right;
     display: flex;
     flex-wrap: wrap;
   }
-  #contents .inner .explan .iconWrap article {
+  #contents.introduce1 .inner .explan .iconWrap article {
     width: 100%;
     float: left;
     padding: 50px 0;
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article::after {
+  #contents.introduce1 .inner .explan .iconWrap article::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article .img {
+  #contents.introduce1 .inner .explan .iconWrap article .img {
     width: auto;
     height: 100%;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .img > img {
+  #contents.introduce1 .inner .explan .iconWrap article .img > img {
     width: auto;
     object-fit: cover;
     margin-right: 50px;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .txt {
+  #contents.introduce1 .inner .explan .iconWrap article .txt {
     width: auto;
     height: 100%;
     padding-right: 50px;
   }
-  #contents .inner .explan .iconWrap article .txt > h3 {
+  #contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
     font: 700 24px/1 "suit";
     color: #000;
     margin-bottom: 10px;
   }
-  #contents .inner .explan .iconWrap article .txt p {
+  #contents.introduce1 .inner .explan .iconWrap article .txt p {
     font: 400 16px/1.5 "suit";
     color: #333;
     opacity: 0.6;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(2) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(2) {
     padding-top: 50px;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(5) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(5) {
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6)::after {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6)::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6) .txt {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt {
     padding-right: 100px;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6) .txt p {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt p {
     word-spacing: -1px;
   }
-  #contents .inner .explan::after {
+  #contents.introduce1 .inner .explan::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background-color: #000;
   }
-  #contents .inner .profile {
+  #contents.introduce1 .inner .profile {
     width: 100%;
     padding-bottom: 100px;
     padding-top: 80px;
   }
-  #contents .inner .profile .info {
+  #contents.introduce1 .inner .profile .info {
     position: relative;
     width: 100%;
   }
-  #contents .inner .profile .info > .title {
+  #contents.introduce1 .inner .profile .info > .title {
     margin-bottom: 50px;
     position: relative;
   }
-  #contents .inner .profile .info > .title > p {
+  #contents.introduce1 .inner .profile .info > .title > p {
     font: 300 20px/1 "suit";
     color: #000;
     margin-bottom: 30px;
   }
-  #contents .inner .profile .info > .title > h4 {
+  #contents.introduce1 .inner .profile .info > .title > h4 {
     font: 100 50px/1 "suit";
     color: #000;
   }
-  #contents .inner .profile .info > .title > h4 > span {
+  #contents.introduce1 .inner .profile .info > .title > h4 > span {
     font-weight: 700;
   }
-  #contents .inner .profile .info > .title > h4::after {
+  #contents.introduce1 .inner .profile .info > .title > h4::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1679,98 +1689,98 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .profile .info > .list::after {
+  #contents.introduce1 .inner .profile .info > .list::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .profile .info > .list .history {
+  #contents.introduce1 .inner .profile .info > .list .history {
     width: 100%;
     float: left;
   }
-  #contents .inner .profile .info > .list .history h5 {
+  #contents.introduce1 .inner .profile .info > .list .history h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
   }
-  #contents .inner .profile .info > .list .history ul {
+  #contents.introduce1 .inner .profile .info > .list .history ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .history ul li {
+  #contents.introduce1 .inner .profile .info > .list .history ul li {
     list-style-type: disc;
     padding-bottom: 20px;
     font: 400 18px/1 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .history ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .history ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active {
+  #contents.introduce1 .inner .profile .info > .list .active {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-top: 40px;
   }
-  #contents .inner .profile .info > .list .active h5 {
+  #contents.introduce1 .inner .profile .info > .list .active h5 {
     font: 600 26px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
   }
-  #contents .inner .profile .info > .list .active ul {
+  #contents.introduce1 .inner .profile .info > .list .active ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .active ul li {
+  #contents.introduce1 .inner .profile .info > .list .active ul li {
     list-style-type: disc;
     padding-bottom: 20px;
     font: 400 18px/1.5 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .active ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .active ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active ul li:last-child {
+  #contents.introduce1 .inner .profile .info > .list .active ul li:last-child {
     width: 100%;
   }
-  #contents .inner .profile .person {
+  #contents.introduce1 .inner .profile .person {
     position: absolute;
     right: -230px;
     bottom: -10px;
     display: none;
   }
-  #contents .inner .profile .person img {
+  #contents.introduce1 .inner .profile .person img {
     width: 80%;
     object-fit: cover;
     filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
   }
 }
 @media all and (max-width: 479px) {
-  #contents {
+  #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
     padding: 100px 25px 0 25px;
   }
-  #contents .inner {
+  #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 0 30px;
   }
-  #contents .inner .explan {
+  #contents.introduce1 .inner .explan {
     width: 100%;
   }
-  #contents .inner .explan .txtWrap {
+  #contents.introduce1 .inner .explan .txtWrap {
     width: 100%;
     float: left;
   }
-  #contents .inner .explan .txtWrap > h2 {
+  #contents.introduce1 .inner .explan .txtWrap > h2 {
     font: 200 40px/1.5 "suit";
     color: #000;
     margin-bottom: 10px;
   }
-  #contents .inner .explan .txtWrap > h2 > span {
+  #contents.introduce1 .inner .explan .txtWrap > h2 > span {
     font-weight: 700;
   }
-  #contents .inner .explan .txtWrap > h2::after {
+  #contents.introduce1 .inner .explan .txtWrap > h2::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1778,104 +1788,107 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .explan .txtWrap > p {
+  #contents.introduce1 .inner .explan .txtWrap > p {
     font: 300 16px/1.5 "suit";
     color: #999999;
   }
-  #contents .inner .explan .iconWrap {
+  #contents.introduce1 .inner .explan .iconWrap {
     width: 100%;
     margin-top: 80px;
     float: right;
     display: flex;
     flex-wrap: wrap;
   }
-  #contents .inner .explan .iconWrap article {
+  #contents.introduce1 .inner .explan .iconWrap article {
     width: 100%;
     float: left;
     padding: 50px 0;
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article::after {
+  #contents.introduce1 .inner .explan .iconWrap article::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article .img {
+  #contents.introduce1 .inner .explan .iconWrap article .img {
     width: auto;
     height: 100%;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .img > img {
+  #contents.introduce1 .inner .explan .iconWrap article .img > img {
     width: auto;
     object-fit: cover;
     margin-right: 50px;
     float: left;
   }
-  #contents .inner .explan .iconWrap article .txt {
+  #contents.introduce1 .inner .explan .iconWrap article .txt {
     width: auto;
     height: 100%;
     padding-right: 50px;
   }
-  #contents .inner .explan .iconWrap article .txt > h3 {
-    font: 700 24px/1 "suit";
+  #contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
+    font: 700 20px/1 "suit";
     color: #000;
     margin-bottom: 10px;
   }
-  #contents .inner .explan .iconWrap article .txt p {
-    font: 400 16px/1.5 "suit";
+  #contents.introduce1 .inner .explan .iconWrap article .txt p {
+    font: 400 14px/1.5 "suit";
     color: #333;
     opacity: 0.6;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(2) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(2) {
     padding-top: 50px;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(5) {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(5) {
     border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6)::after {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6)::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6) .txt {
-    padding-right: 10%;
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt {
+    float: right;
+    width: 60%;
+    padding-right: 0;
   }
-  #contents .inner .explan .iconWrap article:nth-of-type(6) .txt p {
+  #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt p {
     word-spacing: -1px;
+    display: block;
   }
-  #contents .inner .explan::after {
+  #contents.introduce1 .inner .explan::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background-color: #000;
   }
-  #contents .inner .profile {
+  #contents.introduce1 .inner .profile {
     width: 100%;
     padding-bottom: 80px;
     padding-top: 80px;
   }
-  #contents .inner .profile .info {
+  #contents.introduce1 .inner .profile .info {
     position: relative;
     width: 100%;
   }
-  #contents .inner .profile .info > .title {
+  #contents.introduce1 .inner .profile .info > .title {
     margin-bottom: 50px;
     position: relative;
   }
-  #contents .inner .profile .info > .title > p {
+  #contents.introduce1 .inner .profile .info > .title > p {
     font: 300 20px/1 "suit";
     color: #000;
     margin-bottom: 20px;
   }
-  #contents .inner .profile .info > .title > h4 {
+  #contents.introduce1 .inner .profile .info > .title > h4 {
     font: 100 42px/1 "suit";
     color: #000;
   }
-  #contents .inner .profile .info > .title > h4 > span {
+  #contents.introduce1 .inner .profile .info > .title > h4 > span {
     font-weight: 700;
   }
-  #contents .inner .profile .info > .title > h4::after {
+  #contents.introduce1 .inner .profile .info > .title > h4::after {
     content: "";
     display: inline-block;
     width: 10px;
@@ -1883,68 +1896,68 @@ body {
     border-radius: 50%;
     background-color: #c5a58d;
   }
-  #contents .inner .profile .info > .list::after {
+  #contents.introduce1 .inner .profile .info > .list::after {
     content: "";
     display: block;
     clear: both;
   }
-  #contents .inner .profile .info > .list .history {
+  #contents.introduce1 .inner .profile .info > .list .history {
     width: 100%;
     float: left;
   }
-  #contents .inner .profile .info > .list .history h5 {
+  #contents.introduce1 .inner .profile .info > .list .history h5 {
     font: 600 20px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
   }
-  #contents .inner .profile .info > .list .history h5::target-text {
+  #contents.introduce1 .inner .profile .info > .list .history h5::target-text {
     padding-bottom: 5px;
   }
-  #contents .inner .profile .info > .list .history ul {
+  #contents.introduce1 .inner .profile .info > .list .history ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .history ul li {
+  #contents.introduce1 .inner .profile .info > .list .history ul li {
     list-style-type: disc;
     padding-bottom: 20px;
     font: 400 16px/1 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .history ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .history ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active {
+  #contents.introduce1 .inner .profile .info > .list .active {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-top: 40px;
   }
-  #contents .inner .profile .info > .list .active h5 {
+  #contents.introduce1 .inner .profile .info > .list .active h5 {
     font: 600 20px/23px "suit";
     color: #c5a58d;
     margin-bottom: 35px;
   }
-  #contents .inner .profile .info > .list .active ul {
+  #contents.introduce1 .inner .profile .info > .list .active ul {
     margin-left: 20px;
   }
-  #contents .inner .profile .info > .list .active ul li {
+  #contents.introduce1 .inner .profile .info > .list .active ul li {
     list-style-type: disc;
     padding-bottom: 20px;
     font: 400 16px/1.5 "suit";
     color: #333;
   }
-  #contents .inner .profile .info > .list .active ul li::marker {
+  #contents.introduce1 .inner .profile .info > .list .active ul li::marker {
     color: #c5a58d;
   }
-  #contents .inner .profile .info > .list .active ul li:last-child {
+  #contents.introduce1 .inner .profile .info > .list .active ul li:last-child {
     width: 100%;
   }
-  #contents .inner .profile .person {
+  #contents.introduce1 .inner .profile .person {
     position: absolute;
     right: -230px;
     bottom: -10px;
     display: none;
   }
-  #contents .inner .profile .person img {
+  #contents.introduce1 .inner .profile .person img {
     width: 80%;
     object-fit: cover;
     filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
@@ -1966,6 +1979,7 @@ body {
 }
 #contents.introduce2 {
   overflow: hidden;
+  padding-top: 100px;
   padding-bottom: 230px;
 }
 #contents.introduce2 .inner {
@@ -1996,7 +2010,7 @@ body {
 }
 #contents.introduce2 .inner .slideWrap {
   width: 100%;
-  height: 660px;
+  height: 700px;
   overflow: hidden;
   position: relative;
 }
@@ -2097,6 +2111,8 @@ body {
     position: relative;
   }
   #contents.introduce2 {
+    padding-right: 50px;
+    padding-left: 50px;
     overflow: hidden;
     padding-bottom: 150px;
   }
@@ -2495,12 +2511,14 @@ body {
 }
 @media all and (max-width: 479px) {
   #contents {
-    padding-top: 50px;
     position: relative;
   }
   #contents.introduce2 {
+    padding-top: 50px;
     overflow: hidden;
     padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
   }
   #contents.introduce2 .inner {
     width: 100%;
@@ -2509,6 +2527,7 @@ body {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 50px;
+    padding: 0 30px;
   }
   #contents.introduce2 .inner .titleWrap > h2 {
     font: 700 30px/1 "suit";
@@ -2530,7 +2549,7 @@ body {
   }
   #contents.introduce2 .inner .slideWrap {
     width: 100%;
-    height: 280px;
+    height: 320px;
     overflow: hidden;
     position: relative;
     padding: 0;
@@ -2569,12 +2588,13 @@ body {
   }
   #contents.introduce2 .inner .slideWrap .conWrap {
     width: 100%;
-    height: 60px;
+    height: 70px;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     padding-right: 0;
+    padding: 0 30px;
   }
   #contents.introduce2 .inner .slideWrap .conWrap > .inner {
     width: 100%;
@@ -2667,7 +2687,7 @@ body {
 }
 #contents.introduce3 .inner .notice {
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #contents.introduce3 .inner .notice > h2 {
   font: 700 56px/1 "suit";
@@ -2934,6 +2954,7 @@ body {
 @media all and (max-width: 1200px) {
   #contents.introduce3 {
     width: 100%;
+    padding: 50px;
   }
   #contents.introduce3 .inner {
     width: 100%;
@@ -3061,7 +3082,7 @@ body {
     background-color: #fff;
   }
   #contents.introduce3 .location {
-    padding: 50px;
+    padding: 50px 0;
   }
   #contents.introduce3 .location > h3 {
     width: 100%;
@@ -3210,6 +3231,7 @@ body {
 @media all and (max-width: 1024px) {
   #contents.introduce3 {
     width: 100%;
+    padding: 50px 30px;
   }
   #contents.introduce3 .inner {
     width: 100%;
@@ -3338,7 +3360,7 @@ body {
     background-color: #fff;
   }
   #contents.introduce3 .location {
-    padding: 50px;
+    padding: 50px 0;
     margin-top: 50px;
   }
   #contents.introduce3 .location > h3 {
@@ -3619,7 +3641,7 @@ body {
     background-color: #fff;
   }
   #contents.introduce3 .location {
-    padding: 50px;
+    padding: 50px 0;
     margin-top: 50px;
   }
   #contents.introduce3 .location > h3 {
@@ -3907,7 +3929,7 @@ body {
     margin-top: 20px;
   }
   #contents.introduce3 .location {
-    padding: 30px;
+    padding: 30px 0;
     margin-top: 50px;
   }
   #contents.introduce3 .location > h3 {
@@ -4285,7 +4307,7 @@ body {
   float: left;
 }
 #contents.implant_1 .caution .inner .iconWrap article .img > img {
-  width: 100%;
+  width: auto;
   object-fit: cover;
 }
 #contents.implant_1 .caution .inner .iconWrap article .txt {
@@ -4556,11 +4578,12 @@ body {
   }
   #contents.implant_1 {
     overflow: hidden;
+    padding-top: 50px;
   }
   #contents.implant_1 .implant_info {
     width: 100%;
     padding: 50px;
-    padding-top: 0;
+    padding-top: 50px;
   }
   #contents.implant_1 .implant_info > .inner {
     width: 100%;
@@ -4663,7 +4686,7 @@ body {
     position: relative;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle::after {
@@ -4769,12 +4792,12 @@ body {
     clear: both;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img {
-    width: 15%;
+    width: auto;
     height: 100%;
     float: left;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img > img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
   }
   #contents.implant_1 .caution .inner .iconWrap article .txt {
@@ -5018,12 +5041,12 @@ body {
     clear: both;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img {
-    width: 15%;
+    width: auto;
     height: 100%;
     float: left;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img > img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
   }
   #contents.implant_1 .caution .inner .iconWrap article .txt {
@@ -5152,8 +5175,8 @@ body {
     align-items: center;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -5162,7 +5185,7 @@ body {
     position: relative;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle::after {
@@ -5268,12 +5291,12 @@ body {
     clear: both;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img {
-    width: 15%;
+    width: auto;
     height: 100%;
     float: left;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img > img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
   }
   #contents.implant_1 .caution .inner .iconWrap article .txt {
@@ -5558,13 +5581,14 @@ body {
   }
   #contents.implant_2 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 50px;
     background: linear-gradient(180deg, rgb(255, 255, 255) 48%, rgb(243, 237, 232) 100%);
   }
   #contents.implant_2 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 50px;
   }
   #contents.implant_2 .implant_info > .inner::after {
     content: "";
@@ -5712,6 +5736,7 @@ body {
   #contents.implant_2 .diff .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 50px;
   }
   #contents.implant_2 .diff .inner > h3 {
     font: 100 40px/1 "suit";
@@ -5804,7 +5829,7 @@ body {
   }
   #contents.implant_2 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 50px;
     background: linear-gradient(180deg, rgb(255, 255, 255) 48%, rgb(243, 237, 232) 100%);
   }
@@ -6050,7 +6075,7 @@ body {
   }
   #contents.implant_2 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 50px;
     background: linear-gradient(180deg, rgb(255, 255, 255) 48%, rgb(243, 237, 232) 100%);
   }
@@ -6311,6 +6336,7 @@ body {
   #contents.implant_2 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.implant_2 .implant_info > .inner::after {
     content: "";
@@ -6465,6 +6491,7 @@ body {
   #contents.implant_2 .diff .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.implant_2 .diff .inner > h3 {
     font: 100 30px/1 "suit";
@@ -8415,6 +8442,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    padding-top: 50px;
   }
   #contents.implant_4 .implant_info > .inner::after {
     content: "";
@@ -9241,12 +9269,13 @@ body {
   }
   #contents.implant_5 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 50px;
   }
   #contents.implant_5 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 50px;
   }
   #contents.implant_5 .implant_info > .inner::after {
     content: "";
@@ -9322,6 +9351,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    padding: 0 50px;
   }
   #contents.implant_5 .category .bg .inner > h3 {
     width: 100%;
@@ -9384,6 +9414,7 @@ body {
   #contents.implant_5 .type .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.implant_5 .type .inner > h3 {
     font: 600 35px/1 "suit";
@@ -9449,7 +9480,7 @@ body {
   }
   #contents.implant_5 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 0;
   }
   #contents.implant_5 .implant_info > .inner {
@@ -9658,7 +9689,7 @@ body {
   }
   #contents.implant_5 .implant_info {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 0;
   }
   #contents.implant_5 .implant_info > .inner {
@@ -10209,6 +10240,7 @@ body {
   }
   #contents.implant_6 {
     overflow: hidden;
+    padding-top: 100px;
   }
   #contents.implant_6 .implant_info {
     width: 100%;
@@ -10217,7 +10249,7 @@ body {
   #contents.implant_6 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 50px;
   }
   #contents.implant_6 .implant_info > .inner::after {
     content: "";
@@ -10285,7 +10317,7 @@ body {
     align-items: center;
   }
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article > img {
-    width: 20%;
+    width: auto;
     object-fit: cover;
     margin-bottom: 20px;
   }
@@ -10406,7 +10438,7 @@ body {
     align-items: center;
   }
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article > img {
-    width: 20%;
+    width: auto;
     object-fit: cover;
     margin-bottom: 20px;
   }
@@ -10454,7 +10486,7 @@ body {
   #contents.implant_6 .implant_info {
     width: 100%;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 0;
   }
   #contents.implant_6 .implant_info > .inner {
     width: 100%;
@@ -10763,6 +10795,7 @@ body {
   #contents.implant_7 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 50px;
   }
   #contents.implant_7 .implant_info > .inner::after {
     content: "";
@@ -10817,12 +10850,13 @@ body {
   }
   #contents.implant_7 .select {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 150px;
   }
   #contents.implant_7 .select .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.implant_7 .select .inner > h3 {
     font: 200 35px/1.5 "suit";
@@ -10986,7 +11020,7 @@ body {
   }
   #contents.implant_7 .select {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 150px;
   }
   #contents.implant_7 .select .inner {
@@ -11156,7 +11190,7 @@ body {
   }
   #contents.implant_7 .select {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     padding-bottom: 150px;
   }
   #contents.implant_7 .select .inner {
@@ -11871,6 +11905,7 @@ body {
   }
   #contents.normal_1 {
     overflow: hidden;
+    padding-top: 50px;
   }
   #contents.normal_1 .implant_info {
     width: 100%;
@@ -12090,13 +12125,12 @@ body {
 }
 #contents.normal_2 .method_way {
   width: 100%;
-  padding: 50px 0;
   background-color: #fbf8f5;
 }
 #contents.normal_2 .method_way .inner {
   width: 1200px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #contents.normal_2 .method_way .inner > h3 {
   font: 300 40px/1 "suit";
@@ -12166,16 +12200,21 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 #contents.normal_2 .process .inner {
   width: 1200px;
-  margin: 50px auto;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #contents.normal_2 .process .inner > h4 {
   font: 200 40px/1 "suit";
-  color: #000;
-  margin-bottom: 70px;
+  color: #fff;
+  margin-bottom: 30px;
 }
 #contents.normal_2 .process .inner > h4 > span {
   font-weight: 700;
@@ -12228,15 +12267,17 @@ body {
   width: 100%;
   text-align: center;
   font: 700 26px/1 "suit";
-  color: #c5a58d;
+  color: #fff;
   margin-bottom: 20px;
   margin-top: 40px;
+  position: relative;
 }
 #contents.normal_2 .process .inner ul.depthWrap li > p {
   width: 100%;
   text-align: center;
   font: 300 16px/1.5 "suit";
-  color: #333333;
+  color: #fff;
+  position: relative;
 }
 #contents.normal_2 .process .inner ul.depthWrap li > p > span {
   font-weight: 600;
@@ -12376,12 +12417,12 @@ body {
 }
 #contents.normal_2 .process2 .inner {
   width: 1200px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 #contents.normal_2 .process2 .inner > h4 {
   font: 200 40px/1 "suit";
   color: #000;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 #contents.normal_2 .process2 .inner > h4 > span {
   font-weight: 700;
@@ -12639,23 +12680,28 @@ body {
   }
   #contents.normal_2 .process {
     width: 100%;
-    height: 400px;
+    height: 550px;
     position: relative;
   }
   #contents.normal_2 .process > img {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 100%;
     object-fit: cover;
   }
   #contents.normal_2 .process .inner {
     width: 100%;
-    margin: 50px auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0 50px;
   }
   #contents.normal_2 .process .inner > h4 {
     font: 200 30px/1 "suit";
-    color: #000;
+    color: #fff;
     margin-bottom: 70px;
   }
   #contents.normal_2 .process .inner > h4 > span {
@@ -12667,7 +12713,7 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #c5a58d;
+    background-color: #fff;
     margin-left: 5px;
   }
   #contents.normal_2 .process .inner ul.depthWrap {
@@ -12709,7 +12755,7 @@ body {
     width: 100%;
     text-align: center;
     font: 700 20px/1 "suit";
-    color: #c5a58d;
+    color: #fff;
     margin-bottom: 10px;
     margin-top: 20px;
   }
@@ -12717,7 +12763,7 @@ body {
     width: 100%;
     text-align: center;
     font: 300 13px/1.5 "suit";
-    color: #333333;
+    color: #fff;
     letter-spacing: -1px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li > p > span {
@@ -13139,23 +13185,19 @@ body {
   }
   #contents.normal_2 .process {
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: relative;
   }
   #contents.normal_2 .process > img {
     position: absolute;
     bottom: 0;
-    width: 100%;
     object-fit: cover;
   }
   #contents.normal_2 .process .inner {
     width: 100%;
-    margin: 50px auto;
-    padding: 0 50px;
   }
   #contents.normal_2 .process .inner > h4 {
     font: 200 30px/1 "suit";
-    color: #000;
     margin-bottom: 70px;
   }
   #contents.normal_2 .process .inner > h4 > span {
@@ -13176,12 +13218,12 @@ body {
     justify-content: space-between;
   }
   #contents.normal_2 .process .inner ul.depthWrap li {
-    width: 160px;
+    width: 140px;
     margin-right: 20px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li .circle {
     width: 100%;
-    height: 160px;
+    height: 140px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -13194,7 +13236,7 @@ body {
     object-fit: cover;
   }
   #contents.normal_2 .process .inner ul.depthWrap li .circle::after {
-    display: none0;
+    display: none;
   }
   #contents.normal_2 .process .inner ul.depthWrap li:last-child .circle::after {
     display: none;
@@ -13203,7 +13245,6 @@ body {
     width: 100%;
     text-align: center;
     font: 700 20px/1 "suit";
-    color: #c5a58d;
     margin-bottom: 10px;
     margin-top: 20px;
   }
@@ -13211,7 +13252,6 @@ body {
     width: 100%;
     text-align: center;
     font: 300 13px/1.5 "suit";
-    color: #333333;
     letter-spacing: -1px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li > p > span {
@@ -13639,18 +13679,13 @@ body {
   }
   #contents.normal_2 .process > img {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    object-fit: cover;
   }
   #contents.normal_2 .process .inner {
     width: 100%;
-    margin: 50px auto;
     padding: 0 50px;
   }
   #contents.normal_2 .process .inner > h4 {
     font: 200 30px/1 "suit";
-    color: #000;
     margin-bottom: 30px;
   }
   #contents.normal_2 .process .inner > h4 > span {
@@ -13709,7 +13744,6 @@ body {
     width: auto;
     text-align: center;
     font: 700 17px/1 "suit";
-    color: #c5a58d;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -13717,7 +13751,6 @@ body {
     width: auto;
     text-align: center;
     font: 300 13px/1.5 "suit";
-    color: #333333;
     letter-spacing: -1px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li > p > span {
@@ -14005,6 +14038,7 @@ body {
   }
   #contents.normal_2 {
     overflow: hidden;
+    padding-top: 50px;
   }
   #contents.normal_2 .normal_info {
     width: 100%;
@@ -14158,13 +14192,11 @@ body {
   }
   #contents.normal_2 .process .inner {
     width: 100%;
-    margin: 50px auto;
     padding: 0 30px;
   }
   #contents.normal_2 .process .inner > h4 {
-    font: 200 30px/1 "suit";
-    color: #000;
-    margin-bottom: 30px;
+    font: 200 26px/1 "suit";
+    margin-bottom: 10px;
   }
   #contents.normal_2 .process .inner > h4 > span {
     font-weight: 700;
@@ -14222,7 +14254,6 @@ body {
     width: auto;
     text-align: center;
     font: 700 17px/1 "suit";
-    color: #c5a58d;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -14230,7 +14261,6 @@ body {
     width: auto;
     text-align: center;
     font: 300 13px/1.5 "suit";
-    color: #333333;
     letter-spacing: -1px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li > p > span {
@@ -14827,6 +14857,7 @@ body {
   #contents.normal_3 .normal_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_3 .normal_info > .inner::after {
     content: "";
@@ -14888,6 +14919,7 @@ body {
   #contents.normal_3 .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_3 .method_way .inner > h3 {
     font: 300 40px/1 "suit";
@@ -14955,6 +14987,7 @@ body {
   #contents.normal_3 .cycle .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_3 .cycle .inner > h3 {
     font: 300 40px/1 "suit";
@@ -15034,6 +15067,7 @@ body {
   #contents.normal_3 .method_way2 .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
     padding-bottom: 100px;
   }
   #contents.normal_3 .method_way2 .inner > h3 {
@@ -15699,6 +15733,7 @@ body {
   }
   #contents.normal_3 {
     overflow: hidden;
+    padding-top: 50px;
   }
   #contents.normal_3 .normal_info {
     width: 100%;
@@ -15707,6 +15742,7 @@ body {
   #contents.normal_3 .normal_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.normal_3 .normal_info > .inner::after {
     content: "";
@@ -15768,6 +15804,7 @@ body {
   #contents.normal_3 .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.normal_3 .method_way .inner > h3 {
     font: 300 30px/1 "suit";
@@ -15836,6 +15873,7 @@ body {
   #contents.normal_3 .cycle .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.normal_3 .cycle .inner > h3 {
     font: 300 30px/1 "suit";
@@ -15918,6 +15956,7 @@ body {
   #contents.normal_3 .method_way2 .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
     padding-bottom: 50px;
   }
   #contents.normal_3 .method_way2 .inner > h3 {
@@ -17088,6 +17127,7 @@ body {
   #contents.normal_5 .normal_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_5 .normal_info > .inner::after {
     content: "";
@@ -17149,6 +17189,7 @@ body {
   #contents.normal_5 .select .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_5 .select .inner > h3 {
     font: 200 40px/1.5 "suit";
@@ -17458,7 +17499,7 @@ body {
   }
   #contents.normal_5 {
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 50px;
   }
   #contents.normal_5 .normal_info {
     width: 100%;
@@ -17467,6 +17508,7 @@ body {
   #contents.normal_5 .normal_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.normal_5 .normal_info > .inner::after {
     content: "";
@@ -17528,6 +17570,7 @@ body {
   #contents.normal_5 .select .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.normal_5 .select .inner > h3 {
     font: 200 26px/1.5 "suit";
@@ -17776,6 +17819,512 @@ body {
   margin-right: 0;
 }
 
+@media all and (max-width: 1200px) {
+  #contents {
+    position: relative;
+  }
+  #contents.normal_6 {
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  #contents.normal_6 .normal_info {
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  #contents.normal_6 .normal_info > .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  #contents.normal_6 .normal_info > .inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg {
+    width: 60%;
+    float: left;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg > img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap {
+    width: 33%;
+    float: right;
+    padding: 100px 0;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap h2 {
+    font: 600 18px/1 "suit";
+    color: #b08668;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 {
+    font: 200 56px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p {
+    font: 400 18px/1.5 "suit";
+    color: #333;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p > span {
+    display: block;
+    margin-top: 35px;
+    font: 400 18px/1 "suit";
+    color: #bf9b81;
+  }
+  #contents.normal_6 .type {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fbf8f5;
+  }
+  #contents.normal_6 .type .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    padding-bottom: 50px;
+  }
+  #contents.normal_6 .type .inner > h3 {
+    font: 200 40px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .type .inner > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .type .inner > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .type .inner .articleWrap {
+    width: 100%;
+  }
+  #contents.normal_6 .type .inner .articleWrap::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article {
+    width: 48%;
+    height: 200px;
+    margin-right: 4%;
+    padding: 30px;
+    float: left;
+    border: 1px solid #bf9b81;
+    background-color: #fff;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article h4 {
+    font: 600 26px/1 "suit";
+    color: #b68d70;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article p {
+    font: 400 18px/1.6 "suit";
+    color: #666;
+    padding-right: 0;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article:last-child {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 1024px) {
+  #contents {
+    position: relative;
+  }
+  #contents.normal_6 {
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  #contents.normal_6 .normal_info {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #contents.normal_6 .normal_info > .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contents.normal_6 .normal_info > .inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg {
+    width: 100%;
+    float: left;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg > img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap {
+    width: 100%;
+    float: right;
+    padding: 100px 0;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap h2 {
+    font: 600 18px/1 "suit";
+    color: #b08668;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 {
+    font: 200 45px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p {
+    font: 400 18px/1.5 "suit";
+    color: #333;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p > span {
+    display: block;
+    margin-top: 35px;
+    font: 400 18px/1 "suit";
+    color: #bf9b81;
+  }
+  #contents.normal_6 .type {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fbf8f5;
+  }
+  #contents.normal_6 .type .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  #contents.normal_6 .type .inner > h3 {
+    font: 200 30px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .type .inner > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .type .inner > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .type .inner .articleWrap {
+    width: 100%;
+  }
+  #contents.normal_6 .type .inner .articleWrap::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article {
+    width: 48%;
+    height: 200px;
+    margin-right: 4%;
+    padding: 30px;
+    float: left;
+    border: 1px solid #bf9b81;
+    background-color: #fff;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article h4 {
+    font: 600 24px/1 "suit";
+    color: #b68d70;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article p {
+    font: 400 16px/1.6 "suit";
+    color: #666;
+    padding-right: 0;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article:last-child {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 764px) {
+  #contents {
+    position: relative;
+  }
+  #contents.normal_6 {
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  #contents.normal_6 .normal_info {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #contents.normal_6 .normal_info > .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contents.normal_6 .normal_info > .inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg {
+    width: 100%;
+    float: left;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg > img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap {
+    width: 100%;
+    float: right;
+    padding: 50px 0;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap h2 {
+    font: 600 18px/1 "suit";
+    color: #b08668;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 {
+    font: 200 40px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p {
+    font: 400 18px/1.5 "suit";
+    color: #333;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p > span {
+    display: block;
+    margin-top: 35px;
+    font: 400 18px/1 "suit";
+    color: #bf9b81;
+  }
+  #contents.normal_6 .type {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fbf8f5;
+  }
+  #contents.normal_6 .type .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  #contents.normal_6 .type .inner > h3 {
+    font: 200 30px/1 "suit";
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #contents.normal_6 .type .inner > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .type .inner > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .type .inner .articleWrap {
+    width: 100%;
+  }
+  #contents.normal_6 .type .inner .articleWrap::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article {
+    width: 100%;
+    height: 170px;
+    margin-right: 0;
+    padding: 30px;
+    float: left;
+    border: 1px solid #bf9b81;
+    background-color: #fff;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article h4 {
+    font: 600 24px/1 "suit";
+    color: #b68d70;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article p {
+    font: 400 16px/1.6 "suit";
+    color: #666;
+    padding-right: 0;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article:last-child {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+@media all and (max-width: 479px) {
+  #contents {
+    position: relative;
+  }
+  #contents.normal_6 {
+    overflow: hidden;
+    padding-top: 50px;
+  }
+  #contents.normal_6 .normal_info {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #contents.normal_6 .normal_info > .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  #contents.normal_6 .normal_info > .inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg {
+    width: 100%;
+    float: left;
+  }
+  #contents.normal_6 .normal_info > .inner > .mImg > img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap {
+    width: 100%;
+    float: right;
+    padding: 50px 0;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap h2 {
+    font: 600 18px/1 "suit";
+    color: #b08668;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 {
+    font: 200 35px/1 "suit";
+    color: #000;
+    margin-bottom: 30px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p {
+    font: 400 16px/1.5 "suit";
+    color: #333;
+  }
+  #contents.normal_6 .normal_info > .inner .conWrap > p > span {
+    display: block;
+    margin-top: 35px;
+    font: 400 18px/1 "suit";
+    color: #bf9b81;
+  }
+  #contents.normal_6 .type {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fbf8f5;
+  }
+  #contents.normal_6 .type .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding-bottom: 50px;
+  }
+  #contents.normal_6 .type .inner > h3 {
+    font: 200 26px/1 "suit";
+    color: #000;
+    margin-bottom: 30px;
+  }
+  #contents.normal_6 .type .inner > h3 > span {
+    font-weight: 700;
+  }
+  #contents.normal_6 .type .inner > h3::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c5a58d;
+    margin-left: 10px;
+  }
+  #contents.normal_6 .type .inner .articleWrap {
+    width: 100%;
+  }
+  #contents.normal_6 .type .inner .articleWrap::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+    padding: 25px;
+    float: left;
+    border: 1px solid #bf9b81;
+    background-color: #fff;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article h4 {
+    font: 600 22px/1 "suit";
+    color: #b68d70;
+    margin-bottom: 20px;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article p {
+    font: 400 16px/1.6 "suit";
+    color: #666;
+    padding-right: 0;
+  }
+  #contents.normal_6 .type .inner .articleWrap > article:last-child {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
 #visual.wisdom .lnb .inner > .title::before {
   transform: translate(80px, -7px);
 }
@@ -17798,6 +18347,7 @@ body {
 }
 #contents.wisdom .wisdom_info {
   width: 100%;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 #contents.wisdom .wisdom_info > .inner {
@@ -18011,6 +18561,7 @@ body {
   #contents.wisdom .wisdom_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.wisdom .wisdom_info > .inner::after {
     content: "";
@@ -18072,6 +18623,7 @@ body {
   #contents.wisdom .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.wisdom .method_way .inner > h3 {
     font: 300 40px/1 "suit";
@@ -18657,6 +19209,7 @@ body {
   #contents.wisdom .wisdom_info {
     width: 100%;
     padding-bottom: 0;
+    padding-top: 50px;
   }
   #contents.wisdom .wisdom_info > .inner {
     width: 100%;
@@ -18887,6 +19440,7 @@ body {
 }
 #contents.bruising .bruising_info {
   width: 100%;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 #contents.bruising .bruising_info > .inner {
@@ -19173,6 +19727,7 @@ body {
   #contents.bruising .bruising_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.bruising .bruising_info > .inner::after {
     content: "";
@@ -19234,6 +19789,7 @@ body {
   #contents.bruising .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.bruising .method_way .inner > h3 {
     font: 300 40px/1 "suit";
@@ -20028,11 +20584,13 @@ body {
   }
   #contents.bruising .bruising_info {
     width: 100%;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   #contents.bruising .bruising_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.bruising .bruising_info > .inner::after {
     content: "";
@@ -20095,6 +20653,7 @@ body {
   #contents.bruising .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.bruising .method_way .inner > h3 {
     font: 300 26px/1 "suit";
