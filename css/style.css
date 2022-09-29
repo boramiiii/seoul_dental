@@ -1173,7 +1173,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0 50px;
+    padding: 0;
   }
   #contents.introduce1 .inner .explan {
     width: 100%;
@@ -1374,7 +1374,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0 50px;
+    padding: 0;
   }
   #contents.introduce1 .inner .explan {
     width: 100%;
@@ -1567,13 +1567,13 @@ body {
   #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
-    padding: 100px 50px 0 50px;
+    padding: 50px 50px 0 50px;
   }
   #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0 50px;
+    padding: 0;
   }
   #contents.introduce1 .inner .explan {
     width: 100%;
@@ -1771,13 +1771,13 @@ body {
   #contents.introduce1 {
     width: 100%;
     padding-top: 100px;
-    padding: 100px 25px 0 25px;
+    padding: 50px 25px 0 25px;
   }
   #contents.introduce1 .inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0 30px;
+    padding: 0;
   }
   #contents.introduce1 .inner .explan {
     width: 100%;
@@ -4455,7 +4455,7 @@ body {
     position: relative;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle::after {
@@ -4565,7 +4565,7 @@ body {
     float: left;
   }
   #contents.implant_1 .caution .inner .iconWrap article .img > img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
   }
   #contents.implant_1 .caution .inner .iconWrap article .txt {
@@ -4949,7 +4949,7 @@ body {
     position: relative;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
   }
   #contents.implant_1 .process .inner ul.depthWrap li .circle::after {
@@ -4975,7 +4975,7 @@ body {
   #contents.implant_1 .process .inner ul.depthWrap li > p {
     width: auto;
     text-align: center;
-    font: 300 13px/1.5 "suit";
+    font: 300 15px/1.5 "suit";
     color: #333333;
     letter-spacing: -1px;
   }
@@ -6937,6 +6937,7 @@ body {
   #contents.implant_3 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.implant_3 .implant_info > .inner::after {
     content: "";
@@ -7012,6 +7013,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    padding: 0 50px;
   }
   #contents.implant_3 .category .bg .inner > h3 {
     width: 100%;
@@ -7081,6 +7083,7 @@ body {
   #contents.implant_3 .select .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.implant_3 .select .inner > h3 {
     font: 200 40px/1.5 "suit";
@@ -7183,6 +7186,7 @@ body {
   #contents.implant_3 .level .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.implant_3 .level .inner > h3 {
     font: 200 40px/1.5 "suit";
@@ -8456,7 +8460,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 0;
   }
   #contents.implant_4 .implant_info > .inner::after {
     content: "";
@@ -11637,6 +11641,7 @@ body {
   #contents.normal_1 .implant_info {
     width: 100%;
     padding: 50px;
+    padding-top: 0;
   }
   #contents.normal_1 .implant_info > .inner {
     width: 100%;
@@ -12632,6 +12637,7 @@ body {
   #contents.normal_2 .method_way .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_2 .method_way .inner > h3 {
     font: 300 40px/1 "suit";
@@ -16303,6 +16309,7 @@ body {
   #contents.normal_4 .cycle .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_4 .cycle .inner > h3 {
     font: 300 35px/1 "suit";
@@ -16415,6 +16422,7 @@ body {
   #contents.normal_4 .normal_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.normal_4 .normal_info > .inner::after {
     content: "";
@@ -20233,6 +20241,7 @@ body {
   #contents.bruising .cure .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
   }
   #contents.bruising .cure .inner > h3 {
     font: 300 30px/1 "suit";
@@ -20730,6 +20739,7 @@ body {
     padding: 50px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.bruising .reason > h3 {
     font: 300 26px/1 "suit";
@@ -20767,8 +20777,8 @@ body {
     padding: 0;
   }
   #contents.bruising .reason .articleWrap > article .circle {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     position: relative;
     margin-bottom: 20px;
@@ -20821,6 +20831,7 @@ body {
   #contents.bruising .cure .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.bruising .cure .inner > h3 {
     font: 300 26px/1 "suit";

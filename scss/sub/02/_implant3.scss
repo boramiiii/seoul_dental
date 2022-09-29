@@ -390,6 +390,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
                     &::after{
                         content: '';
                         display: block;
@@ -472,6 +473,7 @@
                         bottom: 0;
                         left: 50%;
                         transform: translateX(-50%);
+                        padding: 0 50px;
                         >h3{
                             width: 100%;
                             text-align: center;
@@ -546,6 +548,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
                     >h3{
                         font: 200 40px/1.5 'suit';
                         color: #000;
@@ -662,6 +665,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 50px;
     
                     >h3{
                         font: 200 40px/1.5 'suit';

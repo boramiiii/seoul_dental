@@ -405,7 +405,7 @@
                                 position: relative;
 
                                 img{
-                                    width: 50%;
+                                    width: 100%;
                                     object-fit: cover;
                                 }
                                 &::after{
@@ -529,7 +529,7 @@
                                 height: 100%;
                                 float: left;
                                 >img{
-                                    width: 100%;
+                                    width: auto;
                                     object-fit: cover;
                                 }
                             }
@@ -959,7 +959,7 @@
                                 position: relative;
 
                                 img{
-                                    width: 50%;
+                                    width: 100%;
                                     object-fit: cover;
                                 }
                                 &::after{
@@ -991,7 +991,7 @@
                             >p{
                                 width: auto;
                                 text-align: center;
-                                font: 300 13px/1.5 'suit';
+                                font: 300 15px/1.5 'suit';
                                 color: #333333;
                                 letter-spacing: -1px;
                                 >span{
