@@ -22671,6 +22671,7 @@ ul.quick_menu li.toTop {
   header#header .inner .btnCall {
     right: 30px;
     top: 26px;
+    cursor: pointer;
   }
   section#main {
     height: 80vh;
