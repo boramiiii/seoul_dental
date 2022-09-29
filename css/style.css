@@ -1432,9 +1432,10 @@ body {
     float: left;
   }
   #contents.introduce1 .inner .explan .iconWrap article .txt {
-    width: auto;
+    width: 70%;
     height: 100%;
     padding-right: 50px;
+    float: left;
   }
   #contents.introduce1 .inner .explan .iconWrap article .txt > h3 {
     font: 700 24px/1 "suit";
@@ -1632,7 +1633,7 @@ body {
     float: left;
   }
   #contents.introduce1 .inner .explan .iconWrap article .txt {
-    width: auto;
+    width: 60%;
     height: 100%;
     padding-right: 50px;
   }
@@ -1836,7 +1837,6 @@ body {
     float: left;
   }
   #contents.introduce1 .inner .explan .iconWrap article .txt {
-    width: auto;
     height: 100%;
     padding-right: 50px;
   }
