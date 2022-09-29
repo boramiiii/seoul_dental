@@ -940,6 +940,9 @@ body {
   width: 100%;
   padding-top: 100px;
 }
+#contents.introduce1 {
+  position: relative;
+}
 #contents.introduce1 .inner {
   width: 1200px;
   margin: 0 auto;
@@ -1041,6 +1044,7 @@ body {
 #contents.introduce1 .inner .profile .info {
   position: relative;
   width: 100%;
+  z-index: 2;
 }
 #contents.introduce1 .inner .profile .info > .title {
   margin-bottom: 80px;
@@ -1145,12 +1149,18 @@ body {
 #contents.introduce1 .inner .profile .person {
   position: absolute;
   right: -200px;
-  bottom: -10px;
+  bottom: -5px;
+  z-index: 2;
 }
 #contents.introduce1 .inner .profile .person img {
   width: auto;
   object-fit: cover;
   filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
+}
+#contents.introduce1 .bg {
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
 }
 
 @media all and (max-width: 1200px) {
@@ -1348,6 +1358,10 @@ body {
     width: 80%;
     object-fit: cover;
     filter: drop-shadow(21px 0px 40px rgba(0, 0, 0, 0.2));
+  }
+  #contents.introduce1 .bg {
+    display: none;
+    opacity: 0;
   }
 }
 @media all and (max-width: 1024px) {
@@ -10124,7 +10138,7 @@ body {
 }
 #contents.implant_6 .implant_info {
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #contents.implant_6 .implant_info > .inner {
   width: 1200px;
@@ -10147,7 +10161,7 @@ body {
 #contents.implant_6 .implant_info > .inner .conWrap {
   width: 50%;
   float: right;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 #contents.implant_6 .implant_info > .inner .conWrap h2 {
   font: 600 18px/1 "suit";

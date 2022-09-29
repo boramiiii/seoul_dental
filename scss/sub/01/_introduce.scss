@@ -32,6 +32,7 @@ body {
     width: 100%;
     padding-top: 100px;
     &.introduce1{
+        position: relative;
         .inner{
             width: 1200px;
             margin: 0 auto;
@@ -142,6 +143,7 @@ body {
                 .info{
                     position: relative;
                     width: 100%;
+                    z-index: 2;
                     >.title{
                         margin-bottom: 80px;
                         position: relative;
@@ -251,7 +253,8 @@ body {
                 .person{
                     position: absolute;
                     right: -200px;
-                    bottom: -10px;
+                    bottom: -5px;;
+                    z-index: 2;
                     img{
                         width: auto;
                         object-fit: cover;
@@ -259,6 +262,11 @@ body {
                     }
                 }
             }
+        }
+        .bg{
+            width: 100%;
+            position: absolute;
+            bottom:-5px;
         }
     }
     
@@ -476,6 +484,10 @@ body {
                         }
                     }
                 }
+            }
+            .bg{
+                display: none;
+                opacity: 0;
             }
         }
         
