@@ -444,7 +444,7 @@
             .implant_info{
                 width: 100%;
                 padding: 50px;
-                padding-top: 0;
+                padding-top: 50px;
 
                 >.inner{
                     width: 100%;
@@ -652,12 +652,10 @@
             .implant_info{
                 width: 100%;
                 padding: 50px;
-                padding-top: 0;
 
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
-
 
                     &::after{
                         content: '';
@@ -724,7 +722,6 @@
             .implant_info{
                 width: 100%;
                 padding: 30px;
-                padding-top: 0;
 
                 >.inner{
                     width: 100%;
@@ -751,7 +748,7 @@
                         width: 100%;
                         float: right;
                         padding: 0;
-                        padding-top: 50px;
+                        padding-top: 30px;
                         h2{
                             font: 600 14px/1 'suit';
                             color: #b08668;

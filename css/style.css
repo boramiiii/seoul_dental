@@ -8648,7 +8648,7 @@ body {
   #contents.implant_4 .implant_info {
     width: 100%;
     padding: 50px;
-    padding-top: 0;
+    padding-top: 50px;
   }
   #contents.implant_4 .implant_info > .inner {
     width: 100%;
@@ -8843,7 +8843,6 @@ body {
   #contents.implant_4 .implant_info {
     width: 100%;
     padding: 50px;
-    padding-top: 0;
   }
   #contents.implant_4 .implant_info > .inner {
     width: 100%;
@@ -8908,7 +8907,6 @@ body {
   #contents.implant_4 .implant_info {
     width: 100%;
     padding: 30px;
-    padding-top: 0;
   }
   #contents.implant_4 .implant_info > .inner {
     width: 100%;
@@ -8932,7 +8930,7 @@ body {
     width: 100%;
     float: right;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   #contents.implant_4 .implant_info > .inner .conWrap h2 {
     font: 600 14px/1 "suit";
@@ -11324,6 +11322,7 @@ body {
   #contents.implant_7 .implant_info > .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.implant_7 .implant_info > .inner::after {
     content: "";
@@ -11384,6 +11383,7 @@ body {
   #contents.implant_7 .select .inner {
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
   }
   #contents.implant_7 .select .inner > h3 {
     font: 200 24px/1.5 "suit";

@@ -788,6 +788,7 @@
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     &::after{
                         content: '';
                         display: block;
@@ -852,6 +853,7 @@
                 .inner{
                     width: 100%;
                     margin: 0 auto;
+                    padding: 0 30px;
                     >h3{
                         font: 200 24px/1.5 'suit';
                         color: #000;
