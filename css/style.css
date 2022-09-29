@@ -1862,7 +1862,7 @@ body {
     clear: both;
   }
   #contents.introduce1 .inner .explan .iconWrap article:nth-of-type(6) .txt {
-    float: right;
+    float: left;
     width: 60%;
     padding-right: 0;
   }
