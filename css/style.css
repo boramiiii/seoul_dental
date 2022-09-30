@@ -3862,7 +3862,7 @@ body {
     border-bottom: 1px solid #f2ebe6;
   }
   #contents.introduce3 .inner .notice .infoWrap > article > h3 {
-    width: 30%;
+    width: 27%;
     font: 600 20px/1 "suit";
     text-align: justify;
     float: left;
@@ -3875,14 +3875,14 @@ body {
   }
   #contents.introduce3 .inner .notice .infoWrap > article > p {
     float: left;
-    margin-left: 10px;
+    margin-left: 25px;
     font: 600 20px/1 "suit";
     color: #8a6f5b;
     text-align: right;
   }
   #contents.introduce3 .inner .notice .infoWrap > article > div {
     float: left;
-    margin-left: 10px;
+    margin-left: 25px;
     border-radius: 15px;
     background-color: #f1e9e0;
     color: #654228;
@@ -11962,7 +11962,7 @@ body {
     margin-bottom: 20px;
   }
   #contents.normal_1 .implant_info > .inner .conWrap > h3 {
-    font: 200 40px/1 "suit";
+    font: 200 35px/1 "suit";
     color: #000;
     margin-bottom: 20px;
   }
@@ -20991,7 +20991,7 @@ header#header .menuMo ul#gnbMo > li .depth1Wrap > div {
   float: left;
   font: 500 23px/1 "suit";
   color: #fff;
-  margin-right: 20px;
+  margin-right: 10px;
   position: relative;
   cursor: pointer;
 }
