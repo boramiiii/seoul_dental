@@ -1191,6 +1191,7 @@ section#location{
             font: 700 44px/1 'suit';
             color: #8a6f5b;
             margin-bottom: 30px;
+            text-decoration: none;
         }
         .add{
             width: 100%;
@@ -1377,6 +1378,7 @@ footer{
                     font: 600 16px/1 'suit';
                     color: #fff;
                     margin-right: 35px;
+                    text-decoration: none;
                     &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5){
                         font-weight: 300;
                     }
@@ -2637,11 +2639,11 @@ ul.quick_menu{
                     transition: .3s;
                     .mTitle{
                         font: 600 12px/1 'suit';
-                        margin-bottom: 10px;
+                        margin-bottom: 20px;
                     }
                     >h4{
                         font: 600 26px/1.5 'suit';
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                     }
                     .floatWrap{
                         width: 100%;

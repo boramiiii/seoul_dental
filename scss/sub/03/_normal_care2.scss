@@ -47,7 +47,7 @@
                     float: left;
                     >img{
                         width: 100%;
-                        object-fit: cover;
+                        object-fit: contain;
                         box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
                     }
                 }
@@ -76,6 +76,7 @@
                             height: 10px;
                             border-radius: 50%;
                             background-color: #c5a58d;
+                            margin-left: 10px;
                         }
                     }
                     >p{
@@ -2230,7 +2231,7 @@
             .normal_info{
                 width: 100%;
                 padding: 0 30px;
-                padding-bottom: 100px;
+                padding-bottom: 50px;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
@@ -2336,7 +2337,7 @@
                             width: 100%;
                             float: left;
                             background-color: #fff;
-                            height: 240px;
+                            height: 200px;
                             border: 1px solid #bf9b81;
                             display: flex;
                             flex-direction: column;
@@ -2349,7 +2350,7 @@
                                 object-fit: cover;
                             }
                             >p{
-                                font: 400 18px/1.5 'suit';
+                                font: 400 16px/1.5 'suit';
                                 color: #111;
                                 text-align: center;
                                 margin-top: 20px;
@@ -2383,7 +2384,7 @@
 
             .process{
                 width: 100%;
-                height: 600px;
+                height: 620px;
                 position: relative;
                 >img{
                     position: absolute;
@@ -2462,7 +2463,7 @@
                                 width: auto;
                                 text-align: center;
                                 font: 700 17px/1 'suit';
-                                margin-bottom: 20px;
+                                margin-bottom: 10px;
                                 margin-top: 20px;
                             }
                             >p{
@@ -2481,7 +2482,7 @@
             .normal_info2{
                 width: 100%;
                 padding: 0 30px;
-                padding-bottom: 100px;
+                padding-bottom: 50px;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
@@ -2587,7 +2588,7 @@
                             width: 100%;
                             float: left;
                             background-color: #fff;
-                            height: 240px;
+                            height: 200px;
                             border: 1px solid #bf9b81;
                             display: flex;
                             flex-direction: column;
@@ -2600,7 +2601,7 @@
                                 object-fit: cover;
                             }
                             >p{
-                                font: 400 18px/1.5 'suit';
+                                font: 400 16px/1.5 'suit';
                                 color: #111;
                                 text-align: center;
                                 margin-top: 20px;
@@ -2633,7 +2634,7 @@
             }
             .process2{
                 width: 100%;
-                height: 600px;
+                height: 550px;
                 position: relative;
                 >img{
                     position: absolute;
@@ -2644,11 +2645,14 @@
                 .inner{
                     width: 100%;
                     margin: 50px auto;
-                    padding: 0 50px;
+                    padding: 0 30px;
+                    margin-bottom: 0;
+                    
                     >h4{
                         font: 200 30px/1 'suit';
                         color: #000;
-                        margin-bottom: 30px;
+                        margin-bottom:20px;
+                        
                         >span{
                             font-weight: 700;
                         }
@@ -2717,6 +2721,7 @@
                                 color: #000;
                                 margin-bottom: 20px;
                                 margin-top: 20px;
+                                letter-spacing: -1px;
                             }
                         }
                     }
@@ -2760,10 +2765,10 @@
                         }
                         >article{
                             width: 100%;
-                            height: 240px;
+                            height: 200px;
                             background-color: #fff;
                             border: 1px solid #bf9b81;
-                            padding: 40px 30px;
+                            padding: 30px 30px;
                             margin-right: 0;
                             float: left;
                             margin-top: 20px;

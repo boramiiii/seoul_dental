@@ -47,7 +47,7 @@
                     float: left;
                     >img{
                         width: 100%;
-                        object-fit: cover;
+                        object-fit: inherit;
                         box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
                     }
                 }
@@ -800,7 +800,7 @@
             padding-top: 50px;
             .normal_info{
                 width: 100%;
-                padding-bottom: 50px;
+                padding-bottom: 0;
                 >.inner{
                     width: 100%;
                     margin: 0 auto;
@@ -864,7 +864,7 @@
             }
             .cycle{
                 width: 100%;
-                padding: 100px 0;
+                padding: 50px 0;
                 background-color: #fbf8f5;
 
                 .inner{
@@ -955,7 +955,7 @@
                         width: 100%;
                         height: auto;
                         background-color: #f5efe9;
-                        margin-top: 20px;
+                        margin-top: 0px;
                         padding: 20px;
 
                         .txtWrap{

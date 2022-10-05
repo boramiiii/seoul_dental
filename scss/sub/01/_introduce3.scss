@@ -8,6 +8,12 @@ body {
     &.introduce_3{
         .lnb{
             .inner{
+                >.title{
+                    &::before{
+                        transform: translate(19px, -7px);
+                    }
+                   
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -49,7 +55,6 @@ body {
                         height: 10px;
                         border-radius: 50%;
                         background-color: #c5a58d;
-                        margin-left: 10px;
                     }
                 }
 
@@ -79,7 +84,7 @@ body {
                         }
 
                         >h3{
-                            width: 13%;
+                            width: 15%;
                             font:600 20px/1 'suit';
                             text-align: justify;
                             float: left;
@@ -195,7 +200,7 @@ body {
                     bottom: 0;
                     z-index: 2;
                     left: 50%;
-                    border-radius: 18px 18px 0 0;
+                    border-radius: 40px 40px 0 0;
                     transform: translateX(-50%);
                     display: flex;
                     justify-content: center;
@@ -1288,7 +1293,7 @@ body {
      
                              >h3{
                                  width: 27%;
-                                 font:600 20px/1 'suit';
+                                 font:600 18px/1 'suit';
                                  text-align: justify;
                                  float: left;
                                  color: #beb1a9;
@@ -1300,14 +1305,14 @@ body {
                              }
                              >p{
                                  float: left;
-                                 margin-left: 25px;
-                                 font: 600 20px/1 'suit';
+                                 margin-left: 50px;
+                                 font: 600 18px/1 'suit';
                                  color: #8a6f5b;
                                  text-align: right;
                              }
                              >div{
                                  float: left;
-                                 margin-left: 25px;
+                                 margin-left: 50px;
                                  border-radius: 15px;
                                  background-color: #f1e9e0;
                                  color: #654228;
@@ -1379,13 +1384,14 @@ body {
      
              .location{
                  padding: 30px 0;
+                 padding-bottom: 0;
                  margin-top: 50px;
                  >h3{
                      width: 100%;
                      margin: 0 auto;
                      font: 700 35px/1 'suit';
                      color: #000;
-                     margin-bottom: 50px;
+                     margin-bottom: 30px;
                      &::after{
                          content: '';
                          display: inline-block;
@@ -1409,25 +1415,25 @@ body {
                          bottom: 0;
                          z-index: 2;
                          left: 50%;
-                         border-radius: 18px 18px 0 0;
+                         border-radius: 20px 20px 0 0;
                          transform: translateX(-50%);
                          display: flex;
                          justify-content: center;
                          align-items: center;
                          box-shadow: 10px 5px 10px rgba(0,0,0,0.2);
                          >h4{
-                             font: 500 18px/1 'suit';
+                             font: 500 16px/1 'suit';
                              color: #fff;
                              margin-right: 10px;
                          }
                          .icon{
-                             width: 30px;
-                             height: 30px;
+                             width: 25px;
+                             height: 25px;
                              border-radius: 50%;
                              background-color: rgba(0,0,0,0.4);
                              position: relative;
                              >img{
-                                 width: auto;
+                                 width: 40%;
                                  object-fit: cover;
                                  top: 50%;
                                  left: 50%;
@@ -1443,7 +1449,7 @@ body {
                      margin: 0 auto;
                      padding: 50px 0;
      
-                     padding-bottom: 50px;
+                     padding-bottom: 0;
      
                      &::after{
                          content: '';
@@ -1459,6 +1465,7 @@ body {
                          &:nth-of-type(1){
                              font:600 20px/1.5 'suit';
                              margin-top: 0;
+                             height: 60px;
                          }
                          &:nth-of-type(2){
                              &::after{

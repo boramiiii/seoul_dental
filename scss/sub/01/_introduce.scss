@@ -8,6 +8,12 @@ body {
     &.introduce_1{
         .lnb{
             .inner{
+                >.title{
+                    &::before{
+                        transform: translate(19px, -7px);
+                    }
+                   
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -140,6 +146,7 @@ body {
                 padding-bottom: 220px;
                 padding-top: 80px;
                 
+                padding-right: 30px;
                 .info{
                     position: relative;
                     width: 100%;
@@ -166,6 +173,7 @@ body {
                                 height: 10px;
                                 border-radius: 50%;
                                 background-color: #c5a58d;
+                                margin-left: 10px;
                             }
                         }
                     }

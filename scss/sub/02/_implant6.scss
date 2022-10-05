@@ -2,6 +2,11 @@
     &.implant_6{
         .lnb{
             .inner{
+                >.title{
+                    &::before{
+                        transform: translate(37px, -7px);
+                    }
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -427,8 +432,10 @@
 @media all and (max-width:479px) {
     #contents{
         position: relative;
+        
         &.implant_6{
             overflow: hidden;
+            padding: 50px 0;
             .implant_info{
                 width: 100%;
                 padding: 0;
@@ -437,6 +444,7 @@
                     width: 100%;
                     margin: 0 auto;
                     padding:0 30px ;
+                    position: relative;
                     &::after{
                         content: '';
                         display: block;
@@ -445,8 +453,11 @@
 
                     >.mImg{
                         padding-top: 0;
-                        width: 40%;
+                        width: 27%;
                         float: left;
+                        position: absolute;
+                        left: 30px;
+                        top: 0;
                         >img{
                             width: 100%;
                             object-fit: cover;
@@ -457,15 +468,25 @@
                         width: 100%;
                         float: right;
                         padding-bottom: 50px;
-                        padding-top: 50px;
+                        padding-top: 0;
+                        position: relative;
+                        &::after{
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
                         
                         h2{
-                            font: 600 18px/1 'suit';
+                            width: 60%;
+                            float: right;
+                            font: 600 16px/1 'suit';
                             color: #b08668;
-                            margin-bottom: 20px;
+                            margin-bottom:15px;
                         }
                         >h3{
-                            font: 200 40px/1 'suit';
+                            width: 60%;
+                            float: right;
+                            font: 200 33px/1 'suit';
                             color: #000;
                             margin-bottom: 20px;
                             >span{
@@ -478,14 +499,17 @@
                                 width: 10px;
                                 height: 10px;
                                 border-radius: 50%;
-                                margin-left: 10px;
+                                margin-left: 5px;
                                 background-color: #c5a58d;
                             }
                         }
                         >p{
-                            font: 300 16px/1.5 'suit';
+                            width: 60%;
+                            float: right;
+                            font: 300 15px/1.5 'suit';
                             letter-spacing: -0.5px;
                             color: #333;
+                            margin-bottom: 20px;
                         }
 
                         .articleWrap{
@@ -500,7 +524,7 @@
                             article{
                                 width: 100%;
                                 float: left;
-                                height: 300px;
+                                height: 250px;
                                 position: relative;
                                 display: flex;
                                 flex-direction: column;
@@ -517,14 +541,14 @@
                                 >h3{
                                     width: 100%;
                                     text-align: center;
-                                    font: 700 26px/1 'suit';
+                                    font: 700 24px/1 'suit';
                                     color: #c5a58d;
                                     margin-bottom: 20px;
                                 }
                                 >p{
                                     width: 100%;
                                     text-align: center;
-                                    font: 400 18px/1.6 'suit';
+                                    font: 400 16px/1.6 'suit';
                                     color: rgba(51, 51, 51, 0.8);
                                 }
                                 

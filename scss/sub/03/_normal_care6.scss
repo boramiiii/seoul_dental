@@ -47,7 +47,7 @@
                     float: left;
                     >img{
                         width: 100%;
-                        object-fit: cover;
+                        object-fit: inherit;
                         box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
                     }
                 }
@@ -82,6 +82,7 @@
                     >p{
                         font: 400 18px/1.5 'suit';
                         color: #333;
+                        letter-spacing: -0.5px;
                         >span{
                             display: block;
                             margin-top: 35px;
@@ -660,7 +661,7 @@
                     width: 100%;
                     margin: 0 auto;
                     padding: 0 30px;
-                    padding-bottom: 50px;
+                    padding-bottom: 0;
                     >h3{
                         font: 200 26px/1 'suit';
                         color: #000;
@@ -691,7 +692,7 @@
     
                         >article{
                             width: 100%;
-                            height: 200px;
+                            height: 180px;
                             margin-right: 0;
                             padding: 25px;
                             float: left;
@@ -707,6 +708,7 @@
                                 font: 400 16px/1.6 'suit';
                                 color: #666;
                                 padding-right: 0;
+                                letter-spacing: -0.5px;
                             }
                             &:last-child{
                                 margin-right: 0;

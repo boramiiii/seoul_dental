@@ -2,6 +2,11 @@
     &.implant_5{
         .lnb{
             .inner{
+                >.title{
+                    &::before{
+                        transform: translate(37px, -7px);
+                    }
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -46,7 +51,7 @@
                     float: left;
                     >img{
                         width: 100%;
-                        object-fit: cover;
+                        object-fit: inherit;
                         box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
                     }
                 }
@@ -82,6 +87,7 @@
                         font: 400 18px/1.5 'suit';
                         color: #333;
                         padding-right: 50px;
+                        letter-spacing: -0.5px;
                         >span{
                             display: block;
                             margin-top: 35px;

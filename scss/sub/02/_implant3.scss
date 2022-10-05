@@ -2,6 +2,14 @@
     &.implant_3{
         .lnb{
             .inner{
+                >.title{
+                    >p{
+                        margin-left: 0;
+                    }
+                    &::before{
+                        transform: translate(37px, -7px);
+                    }
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -47,7 +55,7 @@
                     float: left;
                     >img{
                         width: 100%;
-                        object-fit: cover;
+                        object-fit: inherit;
                         box-shadow: 20px 8px 40px rgba(0,0,0,0.1);
                     }
                 }
@@ -68,7 +76,7 @@
                         >span{
                             font-weight: 700;
                             display: block;
-                            margin-bottom: 15px;
+                            margin-bottom: 0;
                         }
 
                         &::after{
@@ -78,6 +86,7 @@
                             height: 10px;
                             border-radius: 50%;
                             background-color: #c5a58d;
+                            margin-left: 10px;
                         }
                     }
                     >p{
@@ -175,6 +184,14 @@
                                 font: 200 18px/1.5 'suit';
                                 text-align: center;
                                 color: #333;
+                                letter-spacing: -1px;
+
+                                // &:nth-of-type(1), &:nth-of-type(2){
+                                //     padding: 0 92px;
+                                // }
+                                // &:nth-of-type(3){
+                                //     padding: 0 92px;
+                                // }
                                 >span{
                                     font-weight: 600;
                                 }
@@ -334,8 +351,8 @@
                         clear: both;
                     }
                     >li{
-                        width: 30%;
-                        margin-right: 3.3%;
+                        width: 31.3%;
+                        margin-right: 3%;
                         float: left;
                         border: 1px solid #c5a58d;
                         >img{
@@ -1461,6 +1478,21 @@
 }
 
 @media all and (max-width:479px) {
+    #visual{
+        &.implant_3{
+            .lnb_mo{
+                .inner{
+                    >.title{
+                        >p{
+                            margin-left: 0;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
     #contents{
         position: relative;
         padding-top: 0;
@@ -1814,6 +1846,7 @@
                                 >p{
                                     font: 300 16px/1.6 'suit';
                                     color: #333;
+                                    letter-spacing: -0.5px;
                                 }
                             }
     

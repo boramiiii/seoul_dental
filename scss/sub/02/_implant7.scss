@@ -2,6 +2,11 @@
     &.implant_7{
         .lnb{
             .inner{
+                >.title{
+                    &::before{
+                        transform: translate(37px, -7px);
+                    }
+                }
                 >.list{
                     p{
                         margin-right: 40px;
@@ -75,6 +80,7 @@
                             height: 10px;
                             border-radius: 50%;
                             background-color: #c5a58d;
+                            margin-left: 10px;
                         }
                     }
                     >p{

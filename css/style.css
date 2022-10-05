@@ -860,10 +860,12 @@ body {
     font: 400 17px/30px "suit";
     color: #fff;
     margin-left: 30px;
+    margin-bottom: 5px;
   }
   #visual .lnb_mo .inner > .title .arrow {
     width: auto;
     float: right;
+    margin-top: 2px;
   }
   #visual .lnb_mo .inner > .title .arrow img {
     width: auto;
@@ -925,6 +927,9 @@ body {
   overflow-x: hidden;
 }
 
+#visual.introduce_1 .lnb .inner > .title::before {
+  transform: translate(19px, -7px);
+}
 #visual.introduce_1 .lnb .inner > .list p {
   margin-right: 40px;
 }
@@ -1040,6 +1045,7 @@ body {
   width: 100%;
   padding-bottom: 220px;
   padding-top: 80px;
+  padding-right: 30px;
 }
 #contents.introduce1 .inner .profile .info {
   position: relative;
@@ -1069,6 +1075,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.introduce1 .inner .profile .info > .list::after {
   content: "";
@@ -1984,6 +1991,9 @@ body {
   overflow-x: hidden;
 }
 
+#visual.introduce_2 .lnb .inner > .title::before {
+  transform: translate(19px, -7px);
+}
 #visual.introduce_2 .lnb .inner > .list p.on::after {
   width: 110px;
 }
@@ -2602,7 +2612,7 @@ body {
   }
   #contents.introduce2 .inner .slideWrap .conWrap {
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -2680,6 +2690,9 @@ body {
   overflow-x: hidden;
 }
 
+#visual.introduce_3 .lnb .inner > .title::before {
+  transform: translate(19px, -7px);
+}
 #visual.introduce_3 .lnb .inner > .list p {
   margin-right: 40px;
 }
@@ -2715,7 +2728,6 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
-  margin-left: 10px;
 }
 #contents.introduce3 .inner .notice > img {
   width: 100%;
@@ -2743,7 +2755,7 @@ body {
   border-bottom: 1px solid #f2ebe6;
 }
 #contents.introduce3 .inner .notice .infoWrap > article > h3 {
-  width: 13%;
+  width: 15%;
   font: 600 20px/1 "suit";
   text-align: justify;
   float: left;
@@ -2851,7 +2863,7 @@ body {
   bottom: 0;
   z-index: 2;
   left: 50%;
-  border-radius: 18px 18px 0 0;
+  border-radius: 40px 40px 0 0;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -3863,7 +3875,7 @@ body {
   }
   #contents.introduce3 .inner .notice .infoWrap > article > h3 {
     width: 27%;
-    font: 600 20px/1 "suit";
+    font: 600 18px/1 "suit";
     text-align: justify;
     float: left;
     color: #beb1a9;
@@ -3875,14 +3887,14 @@ body {
   }
   #contents.introduce3 .inner .notice .infoWrap > article > p {
     float: left;
-    margin-left: 25px;
-    font: 600 20px/1 "suit";
+    margin-left: 50px;
+    font: 600 18px/1 "suit";
     color: #8a6f5b;
     text-align: right;
   }
   #contents.introduce3 .inner .notice .infoWrap > article > div {
     float: left;
-    margin-left: 25px;
+    margin-left: 50px;
     border-radius: 15px;
     background-color: #f1e9e0;
     color: #654228;
@@ -3944,6 +3956,7 @@ body {
   }
   #contents.introduce3 .location {
     padding: 30px 0;
+    padding-bottom: 0;
     margin-top: 50px;
   }
   #contents.introduce3 .location > h3 {
@@ -3951,7 +3964,7 @@ body {
     margin: 0 auto;
     font: 700 35px/1 "suit";
     color: #000;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   #contents.introduce3 .location > h3::after {
     content: "";
@@ -3975,7 +3988,7 @@ body {
     bottom: 0;
     z-index: 2;
     left: 50%;
-    border-radius: 18px 18px 0 0;
+    border-radius: 20px 20px 0 0;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
@@ -3983,19 +3996,19 @@ body {
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
   #contents.introduce3 .location #map2 .box > h4 {
-    font: 500 18px/1 "suit";
+    font: 500 16px/1 "suit";
     color: #fff;
     margin-right: 10px;
   }
   #contents.introduce3 .location #map2 .box .icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.4);
     position: relative;
   }
   #contents.introduce3 .location #map2 .box .icon > img {
-    width: auto;
+    width: 40%;
     object-fit: cover;
     top: 50%;
     left: 50%;
@@ -4006,7 +4019,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 50px 0;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
   #contents.introduce3 .location ul::after {
     content: "";
@@ -4022,6 +4035,7 @@ body {
   #contents.introduce3 .location ul li:nth-of-type(1) {
     font: 600 20px/1.5 "suit";
     margin-top: 0;
+    height: 60px;
   }
   #contents.introduce3 .location ul li:nth-of-type(2)::after {
     content: "";
@@ -4092,6 +4106,9 @@ body {
     margin-top: 10px;
   }
 }
+#visual .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
+}
 #visual .lnb .inner > .list p {
   margin-right: 40px;
 }
@@ -4156,6 +4173,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.implant_1 .implant_info > .inner .conWrap > p {
   font: 300 18px/1.5 "suit";
@@ -4175,6 +4193,8 @@ body {
 #contents.implant_1 .process .inner {
   width: 1200px;
   margin: 50px auto;
+  position: relative;
+  z-index: 2;
 }
 #contents.implant_1 .process .inner > h4 {
   font: 200 40px/1 "suit";
@@ -4335,7 +4355,7 @@ body {
 }
 #contents.implant_1 .caution .inner .iconWrap article .txt > p {
   width: 100%;
-  padding-right: 80px;
+  padding-right: 40px;
   font: 300 18px/1.5 "suit";
   color: #333;
 }
@@ -4614,7 +4634,7 @@ body {
   }
   #contents.implant_1 .implant_info > .inner > .mImg > img {
     width: 100%;
-    object-fit: cover;
+    object-fit: inherit;
     box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
   }
   #contents.implant_1 .implant_info > .inner .conWrap {
@@ -4662,6 +4682,7 @@ body {
     width: 100%;
     margin: 50px auto;
     padding: 0 50px;
+    position: relative;
   }
   #contents.implant_1 .process .inner > h4 {
     font: 200 30px/1 "suit";
@@ -5140,6 +5161,7 @@ body {
   }
   #contents.implant_1 .implant_info > .inner .conWrap > p {
     font: 300 16px/1.7 "suit";
+    letter-spacing: -0.5px;
     color: #333;
   }
   #contents.implant_1 .process {
@@ -5234,7 +5256,7 @@ body {
   }
   #contents.implant_1 .caution {
     width: 100%;
-    padding: 100px 30px;
+    padding: 50px 30px;
   }
   #contents.implant_1 .caution .inner {
     width: 100%;
@@ -5329,12 +5351,15 @@ body {
     color: #333;
   }
 }
+#visual.implant_2 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
+}
 #visual.implant_2 .lnb .inner > .list p {
   margin-right: 40px;
 }
 #visual.implant_2 .lnb .inner > .list p.on::after {
   width: 120px;
-  transform: translate(-5px, 27px);
+  transform: translate(-7px, 27px);
 }
 #visual.implant_2 .lnb .inner > .list p:last-child {
   margin-right: 0;
@@ -5368,7 +5393,7 @@ body {
 }
 #contents.implant_2 .implant_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.implant_2 .implant_info > .inner .conWrap {
@@ -5396,6 +5421,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.implant_2 .implant_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -6487,10 +6513,10 @@ body {
   #contents.implant_2 .implant_info > .inner .structure > .conWrap > ul > li > p {
     width: 100%;
     float: left;
-    font: 300 18px/1.6 "suit";
+    font: 300 17px/1.6 "suit";
     color: #333;
     margin-top: 10px;
-    letter-spacing: -1.45px;
+    letter-spacing: 0;
   }
   #contents.implant_2 .implant_info > .inner .structure > .conWrap > ul > li > p > span {
     font-weight: 600;
@@ -6500,7 +6526,7 @@ body {
   }
   #contents.implant_2 .diff {
     width: 100%;
-    padding: 80px 0;
+    padding: 50px 0;
   }
   #contents.implant_2 .diff .inner {
     width: 100%;
@@ -6560,7 +6586,7 @@ body {
   #contents.implant_2 .diff .inner .articleWrap > article .txtWrap > ul li {
     padding: 10px 0;
     list-style-type: disc;
-    font: 300 17px/1.5 "suit";
+    font: 300 16px/1.5 "suit";
     color: #333;
   }
   #contents.implant_2 .diff .inner .articleWrap > article .txtWrap > ul li > span {
@@ -6588,6 +6614,12 @@ body {
   #contents.implant_2 .diff .inner .articleWrap > article:nth-of-type(1) .txtWrap > ul li::marker {
     color: #999;
   }
+}
+#visual.implant_3 .lnb .inner > .title > p {
+  margin-left: 0;
+}
+#visual.implant_3 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
 }
 #visual.implant_3 .lnb .inner > .list p {
   margin-right: 40px;
@@ -6627,7 +6659,7 @@ body {
 }
 #contents.implant_3 .implant_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.implant_3 .implant_info > .inner .conWrap {
@@ -6648,7 +6680,7 @@ body {
 #contents.implant_3 .implant_info > .inner .conWrap > h3 > span {
   font-weight: 700;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 #contents.implant_3 .implant_info > .inner .conWrap > h3::after {
   content: "";
@@ -6657,6 +6689,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.implant_3 .implant_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -6747,6 +6780,7 @@ body {
   font: 200 18px/1.5 "suit";
   text-align: center;
   color: #333;
+  letter-spacing: -1px;
 }
 #contents.implant_3 .category .bg .inner .articleWrap > article > p > span {
   font-weight: 600;
@@ -6888,8 +6922,8 @@ body {
   clear: both;
 }
 #contents.implant_3 .level .inner ul.con > li {
-  width: 30%;
-  margin-right: 3.3%;
+  width: 31.3%;
+  margin-right: 3%;
   float: left;
   border: 1px solid #c5a58d;
 }
@@ -7911,6 +7945,9 @@ body {
   }
 }
 @media all and (max-width: 479px) {
+  #visual.implant_3 .lnb_mo .inner > .title > p {
+    margin-left: 0;
+  }
   #contents {
     position: relative;
     padding-top: 0;
@@ -8240,11 +8277,15 @@ body {
   #contents.implant_3 .level .inner ul.con > li .txtWrap > p {
     font: 300 16px/1.6 "suit";
     color: #333;
+    letter-spacing: -0.5px;
   }
   #contents.implant_3 .level .inner ul.con > li:last-child {
     margin-right: 0;
     margin-bottom: 0;
   }
+}
+#visual.implant_4 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
 }
 #visual.implant_4 .lnb .inner > .list p {
   margin-right: 40px;
@@ -8282,7 +8323,7 @@ body {
 }
 #contents.implant_4 .implant_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.implant_4 .implant_info > .inner .conWrap {
@@ -8310,6 +8351,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.implant_4 .implant_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -9057,6 +9099,9 @@ body {
     margin-top: 50px;
   }
 }
+#visual.implant_5 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
+}
 #visual.implant_5 .lnb .inner > .list p {
   margin-right: 40px;
 }
@@ -9095,7 +9140,7 @@ body {
 }
 #contents.implant_5 .implant_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.implant_5 .implant_info > .inner .conWrap {
@@ -9129,6 +9174,7 @@ body {
   font: 400 18px/1.5 "suit";
   color: #333;
   padding-right: 50px;
+  letter-spacing: -0.5px;
 }
 #contents.implant_5 .implant_info > .inner .conWrap > p > span {
   display: block;
@@ -10121,6 +10167,9 @@ body {
     padding-right: 0;
   }
 }
+#visual.implant_6 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
+}
 #visual.implant_6 .lnb .inner > .list p {
   margin-right: 40px;
 }
@@ -10498,6 +10547,7 @@ body {
   }
   #contents.implant_6 {
     overflow: hidden;
+    padding: 50px 0;
   }
   #contents.implant_6 .implant_info {
     width: 100%;
@@ -10508,6 +10558,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
+    position: relative;
   }
   #contents.implant_6 .implant_info > .inner::after {
     content: "";
@@ -10516,8 +10567,11 @@ body {
   }
   #contents.implant_6 .implant_info > .inner > .mImg {
     padding-top: 0;
-    width: 40%;
+    width: 27%;
     float: left;
+    position: absolute;
+    left: 30px;
+    top: 0;
   }
   #contents.implant_6 .implant_info > .inner > .mImg > img {
     width: 100%;
@@ -10527,15 +10581,25 @@ body {
     width: 100%;
     float: right;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 0;
+    position: relative;
+  }
+  #contents.implant_6 .implant_info > .inner .conWrap::after {
+    content: "";
+    display: block;
+    clear: both;
   }
   #contents.implant_6 .implant_info > .inner .conWrap h2 {
-    font: 600 18px/1 "suit";
+    width: 60%;
+    float: right;
+    font: 600 16px/1 "suit";
     color: #b08668;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   #contents.implant_6 .implant_info > .inner .conWrap > h3 {
-    font: 200 40px/1 "suit";
+    width: 60%;
+    float: right;
+    font: 200 33px/1 "suit";
     color: #000;
     margin-bottom: 20px;
   }
@@ -10548,13 +10612,16 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #c5a58d;
   }
   #contents.implant_6 .implant_info > .inner .conWrap > p {
-    font: 300 16px/1.5 "suit";
+    width: 60%;
+    float: right;
+    font: 300 15px/1.5 "suit";
     letter-spacing: -0.5px;
     color: #333;
+    margin-bottom: 20px;
   }
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap {
     width: 100%;
@@ -10568,7 +10635,7 @@ body {
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article {
     width: 100%;
     float: left;
-    height: 300px;
+    height: 250px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -10585,14 +10652,14 @@ body {
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article > h3 {
     width: 100%;
     text-align: center;
-    font: 700 26px/1 "suit";
+    font: 700 24px/1 "suit";
     color: #c5a58d;
     margin-bottom: 20px;
   }
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article > p {
     width: 100%;
     text-align: center;
-    font: 400 18px/1.6 "suit";
+    font: 400 16px/1.6 "suit";
     color: rgba(51, 51, 51, 0.8);
   }
   #contents.implant_6 .implant_info > .inner .conWrap .articleWrap article:nth-of-type(1) {
@@ -10615,6 +10682,9 @@ body {
     border-bottom: 1px solid #bf9b81;
     border-right: 1px solid #bf9b81;
   }
+}
+#visual.implant_7 .lnb .inner > .title::before {
+  transform: translate(37px, -7px);
 }
 #visual.implant_7 .lnb .inner > .list p {
   margin-right: 40px;
@@ -10682,6 +10752,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.implant_7 .implant_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -11516,7 +11587,7 @@ body {
 }
 #contents.normal_1 .implant_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_1 .implant_info > .inner .conWrap {
@@ -11976,6 +12047,7 @@ body {
     height: 10px;
     border-radius: 50%;
     background-color: #c5a58d;
+    margin-left: 10px;
   }
   #contents.normal_1 .implant_info > .inner .conWrap > p {
     font: 400 16px/1.5 "suit";
@@ -11997,7 +12069,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
   }
   #contents.normal_1 .method_way .inner > h3 {
     font: 300 30px/1 "suit";
@@ -12019,7 +12091,7 @@ body {
   #contents.normal_1 .method_way .inner > p {
     font: 300 16px/1 "suit";
     color: #999;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   #contents.normal_1 .method_way .inner .articleWrap {
     width: 100%;
@@ -12033,7 +12105,7 @@ body {
     width: 100%;
     float: left;
     background-color: #fff;
-    height: 240px;
+    height: 200px;
     border: 1px solid #bf9b81;
     display: flex;
     flex-direction: column;
@@ -12102,7 +12174,7 @@ body {
 }
 #contents.normal_2 .normal_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_2 .normal_info > .inner .conWrap {
@@ -12130,6 +12202,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.normal_2 .normal_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -14063,7 +14136,7 @@ body {
   #contents.normal_2 .normal_info {
     width: 100%;
     padding: 0 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   #contents.normal_2 .normal_info > .inner {
     width: 100%;
@@ -14161,7 +14234,7 @@ body {
     width: 100%;
     float: left;
     background-color: #fff;
-    height: 240px;
+    height: 200px;
     border: 1px solid #bf9b81;
     display: flex;
     flex-direction: column;
@@ -14174,7 +14247,7 @@ body {
     object-fit: cover;
   }
   #contents.normal_2 .method_way .inner .articleWrap > article > p {
-    font: 400 18px/1.5 "suit";
+    font: 400 16px/1.5 "suit";
     color: #111;
     text-align: center;
     margin-top: 20px;
@@ -14201,7 +14274,7 @@ body {
   }
   #contents.normal_2 .process {
     width: 100%;
-    height: 600px;
+    height: 620px;
     position: relative;
   }
   #contents.normal_2 .process > img {
@@ -14274,7 +14347,7 @@ body {
     width: auto;
     text-align: center;
     font: 700 17px/1 "suit";
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
   }
   #contents.normal_2 .process .inner ul.depthWrap li > p {
@@ -14289,7 +14362,7 @@ body {
   #contents.normal_2 .normal_info2 {
     width: 100%;
     padding: 0 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   #contents.normal_2 .normal_info2 > .inner {
     width: 100%;
@@ -14387,7 +14460,7 @@ body {
     width: 100%;
     float: left;
     background-color: #fff;
-    height: 240px;
+    height: 200px;
     border: 1px solid #bf9b81;
     display: flex;
     flex-direction: column;
@@ -14400,7 +14473,7 @@ body {
     object-fit: cover;
   }
   #contents.normal_2 .method_way2 .inner .articleWrap > article > p {
-    font: 400 18px/1.5 "suit";
+    font: 400 16px/1.5 "suit";
     color: #111;
     text-align: center;
     margin-top: 20px;
@@ -14427,7 +14500,7 @@ body {
   }
   #contents.normal_2 .process2 {
     width: 100%;
-    height: 600px;
+    height: 550px;
     position: relative;
   }
   #contents.normal_2 .process2 > img {
@@ -14439,12 +14512,13 @@ body {
   #contents.normal_2 .process2 .inner {
     width: 100%;
     margin: 50px auto;
-    padding: 0 50px;
+    padding: 0 30px;
+    margin-bottom: 0;
   }
   #contents.normal_2 .process2 .inner > h4 {
     font: 200 30px/1 "suit";
     color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #contents.normal_2 .process2 .inner > h4 > span {
     font-weight: 700;
@@ -14505,6 +14579,7 @@ body {
     color: #000;
     margin-bottom: 20px;
     margin-top: 20px;
+    letter-spacing: -1px;
   }
   #contents.normal_2 .notice {
     width: 100%;
@@ -14543,10 +14618,10 @@ body {
   }
   #contents.normal_2 .notice .inner .articleWrap > article {
     width: 100%;
-    height: 240px;
+    height: 200px;
     background-color: #fff;
     border: 1px solid #bf9b81;
-    padding: 40px 30px;
+    padding: 30px 30px;
     margin-right: 0;
     float: left;
     margin-top: 20px;
@@ -14601,7 +14676,7 @@ body {
 }
 #contents.normal_3 .normal_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_3 .normal_info > .inner .conWrap {
@@ -14629,6 +14704,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #c5a58d;
+  margin-left: 10px;
 }
 #contents.normal_3 .normal_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
@@ -15818,7 +15894,7 @@ body {
   }
   #contents.normal_3 .method_way {
     width: 100%;
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: #fbf8f5;
   }
   #contents.normal_3 .method_way .inner {
@@ -15855,7 +15931,7 @@ body {
     width: 100%;
     float: left;
     background-color: #fff;
-    height: 200px;
+    height: 170px;
     border: 1px solid #bf9b81;
     display: flex;
     flex-direction: column;
@@ -15914,7 +15990,7 @@ body {
   }
   #contents.normal_3 .cycle .inner .articleWrap {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #contents.normal_3 .cycle .inner .articleWrap::after {
     content: "";
@@ -15927,7 +16003,7 @@ body {
     margin-right: 0%;
     border: 1px solid #bf9b81;
     padding: 30px;
-    height: 150px;
+    height: 120px;
     margin-top: 20px;
   }
   #contents.normal_3 .cycle .inner .articleWrap > article > h4 {
@@ -15970,14 +16046,14 @@ body {
   }
   #contents.normal_3 .method_way2 {
     width: 100%;
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: #fbf8f5;
   }
   #contents.normal_3 .method_way2 .inner {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
   #contents.normal_3 .method_way2 .inner > h3 {
     font: 300 30px/1 "suit";
@@ -16089,7 +16165,7 @@ body {
 }
 #contents.normal_4 .normal_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_4 .normal_info > .inner .conWrap {
@@ -16766,7 +16842,7 @@ body {
   }
   #contents.normal_4 .normal_info {
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
   #contents.normal_4 .normal_info > .inner {
     width: 100%;
@@ -16826,7 +16902,7 @@ body {
   }
   #contents.normal_4 .cycle {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #fbf8f5;
   }
   #contents.normal_4 .cycle .inner {
@@ -16909,7 +16985,7 @@ body {
     width: 100%;
     height: auto;
     background-color: #f5efe9;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 20px;
   }
   #contents.normal_4 .cycle .inner .not .txtWrap {
@@ -16972,7 +17048,7 @@ body {
 }
 #contents.normal_5 .normal_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_5 .normal_info > .inner .conWrap {
@@ -17098,6 +17174,7 @@ body {
   float: left;
   padding: 15px 20px;
   letter-spacing: 0.5px;
+  padding-right: 10px;
 }
 #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li:last-child > h5 {
   height: 60px;
@@ -17121,6 +17198,10 @@ body {
   color: #999;
   padding: 15px 50px 0 20px;
 }
+#contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) .conWrap > ul li:nth-of-type(1) p {
+  position: relative;
+  padding-left: 36px;
+}
 #contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) .conWrap > ul li:nth-of-type(1) p:nth-of-type(2) {
   padding-top: 5px;
 }
@@ -17132,6 +17213,10 @@ body {
   background-color: #999;
   border-radius: 50%;
   margin-right: 7px;
+  position: absolute;
+  top: 60%;
+  left: 25px;
+  transform: translateX(-50%);
 }
 
 @media all and (max-width: 1200px) {
@@ -17657,24 +17742,32 @@ body {
   }
   #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li > h5 {
     width: 90px;
-    height: 88px;
+    height: 70px;
     background-color: #bf9b81;
-    font: 600 15px/88px "suit";
+    font: 600 15px/70px "suit";
     color: #fff;
     text-align: center;
     float: left;
   }
   #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li p {
     width: calc(100% - 100px);
-    font: 400 14px/1.5 "suit";
+    font: 400 13px/1.3 "suit";
     color: #333;
     float: left;
     padding: 10px 20px;
-    letter-spacing: -0.5px;
+    letter-spacing: 0;
+    padding-right: 0;
   }
   #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li:last-child > h5 {
-    height: 62px;
-    line-height: 62px;
+    height: 50px;
+    line-height: 50px;
+  }
+  #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li:last-child p {
+    padding: 6px 20px;
+  }
+  #contents.normal_5 .select .inner > .articleWrap > article .conWrap > ul li:nth-of-type(3) > h5 {
+    height: 55px;
+    line-height: 55px;
   }
   #contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) {
     margin-left: 0;
@@ -17694,8 +17787,12 @@ body {
     color: #999;
     padding: 10px 10px 0 20px;
   }
+  #contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) .conWrap > ul li:nth-of-type(1) p {
+    font-size: 13px;
+    padding-top: 6px;
+  }
   #contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) .conWrap > ul li:nth-of-type(1) p:nth-of-type(2) {
-    padding-top: 5px;
+    padding-top: 3px;
   }
   #contents.normal_5 .select .inner > .articleWrap > article:nth-of-type(1) .conWrap > ul li:nth-of-type(1) p::before {
     content: "";
@@ -17705,6 +17802,7 @@ body {
     background-color: #999;
     border-radius: 50%;
     margin-right: 7px;
+    top: 25%;
   }
 }
 #visual.normal_6 .lnb .inner > .list p {
@@ -17744,7 +17842,7 @@ body {
 }
 #contents.normal_6 .normal_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.normal_6 .normal_info > .inner .conWrap {
@@ -17777,6 +17875,7 @@ body {
 #contents.normal_6 .normal_info > .inner .conWrap > p {
   font: 400 18px/1.5 "suit";
   color: #333;
+  letter-spacing: -0.5px;
 }
 #contents.normal_6 .normal_info > .inner .conWrap > p > span {
   display: block;
@@ -18296,7 +18395,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
   #contents.normal_6 .type .inner > h3 {
     font: 200 26px/1 "suit";
@@ -18325,7 +18424,7 @@ body {
   }
   #contents.normal_6 .type .inner .articleWrap > article {
     width: 100%;
-    height: 200px;
+    height: 180px;
     margin-right: 0;
     padding: 25px;
     float: left;
@@ -18341,6 +18440,7 @@ body {
     font: 400 16px/1.6 "suit";
     color: #666;
     padding-right: 0;
+    letter-spacing: -0.5px;
   }
   #contents.normal_6 .type .inner .articleWrap > article:last-child {
     margin-right: 0;
@@ -19221,6 +19321,7 @@ body {
   }
   #visual.wisdom .lnb_mo .inner .title > p {
     font-size: 14px;
+    margin-left: 0;
   }
   #contents {
     position: relative;
@@ -19355,6 +19456,9 @@ body {
   #contents.wisdom .method_way .inner .articleWrap > article:nth-of-type(2) {
     border-right: 1px solid #bf9b81;
   }
+  #contents.wisdom .method_way .inner .articleWrap > article:nth-of-type(4) > img {
+    width: 45%;
+  }
   #contents.wisdom .caution {
     width: 100%;
     padding: 50px 30px;
@@ -19436,8 +19540,13 @@ body {
   #contents.wisdom .caution .articleWrap > article > p {
     font: 300 16px/1.5 "suit";
     text-align: center;
-    letter-spacing: -1px;
     color: #333;
+  }
+  #contents.wisdom .caution .articleWrap > article:nth-of-type(2) > p {
+    padding: 0 10px;
+  }
+  #contents.wisdom .caution .articleWrap > article:nth-of-type(4) > p {
+    padding: 0 20px;
   }
 }
 #visual.bruising .lnb .inner > .title::before {
@@ -19480,7 +19589,7 @@ body {
 }
 #contents.bruising .bruising_info > .inner > .mImg > img {
   width: 100%;
-  object-fit: cover;
+  object-fit: inherit;
   box-shadow: 20px 8px 40px rgba(0, 0, 0, 0.1);
 }
 #contents.bruising .bruising_info > .inner .conWrap {
@@ -20707,16 +20816,16 @@ body {
     width: 50%;
     float: left;
     background-color: #fff;
-    height: 180px;
+    height: 200px;
     border: 1px solid #bf9b81;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
   }
   #contents.bruising .method_way .inner .articleWrap > article > img {
-    width: 40%;
+    width: auto;
     object-fit: cover;
   }
   #contents.bruising .method_way .inner .articleWrap > article > p {
@@ -20736,10 +20845,10 @@ body {
   }
   #contents.bruising .reason {
     width: 100%;
-    padding: 50px;
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
+    padding-top: 50px;
   }
   #contents.bruising .reason > h3 {
     font: 300 26px/1 "suit";
@@ -21869,6 +21978,7 @@ section#location .locTxt > h4 {
   font: 700 44px/1 "suit";
   color: #8a6f5b;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 section#location .locTxt .add {
   width: 100%;
@@ -22048,6 +22158,7 @@ footer .inner .fTxtWrap ul li {
   font: 600 16px/1 "suit";
   color: #fff;
   margin-right: 35px;
+  text-decoration: none;
 }
 footer .inner .fTxtWrap ul li:nth-of-type(3), footer .inner .fTxtWrap ul li:nth-of-type(4), footer .inner .fTxtWrap ul li:nth-of-type(5) {
   font-weight: 300;
@@ -23047,11 +23158,11 @@ ul.quick_menu li.toTop {
   }
   section#subject > .visualWrap > .articleWrap > article .mTitle {
     font: 600 12px/1 "suit";
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   section#subject > .visualWrap > .articleWrap > article > h4 {
     font: 600 26px/1.5 "suit";
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   section#subject > .visualWrap > .articleWrap > article .floatWrap {
     width: 100%;
